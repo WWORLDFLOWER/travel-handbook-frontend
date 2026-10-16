@@ -7,3 +7,4 @@ deploy_frontend.*
 docker-compose.yml
 show_url.*
 dist
+.github
