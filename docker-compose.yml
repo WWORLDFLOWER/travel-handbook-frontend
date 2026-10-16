@@ -1,7 +1,6 @@
 # travel-handbook 前端（Nuxt 4 產生的純靜態網站，沒有後端）
 # 本機看：http://localhost:8090/travel-handbook/
-# 臨時對外網址：quick-tunnel 啟動後會拿到一個隨機的 https://xxx.trycloudflare.com
-#   查網址：.\show_url.cmd（容器重開網址就會換）
+# 對外網址改用 GitHub Pages：https://wworldflower.github.io/travel-handbook-frontend/（push 到 main 自動更新）
 # 更新內容（改 app/data/trip.json 或程式）：.\deploy_frontend.cmd
 name: travel-handbook-frontend
 
@@ -27,16 +26,6 @@ services:
       web:
         aliases:
           - travel-handbook-frontend
-
-  # Cloudflare 臨時通道（不用帳號、不用網域；網址隨機、重開會變）
-  quick-tunnel:
-    image: cloudflare/cloudflared:latest
-    restart: unless-stopped
-    # 不設 depends_on：更新前端時通道不會跟著重開，網址就不會變
-    command: tunnel --no-autoupdate --url http://travel-handbook-frontend:80
-    logging: *logging
-    networks:
-      - web
 
 networks:
   web:

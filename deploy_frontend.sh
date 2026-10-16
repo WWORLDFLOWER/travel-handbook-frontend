@@ -17,4 +17,4 @@ echo "== 目前狀態 =="
 docker compose ps
 echo "完成！過幾秒重新整理網頁就是新版。"
 echo "本機：http://localhost:8090/travel-handbook/"
-./show_url.sh
+echo "GitHub 網頁（https://wworldflower.github.io/travel-handbook-frontend/）要 commit + push 才會更新。"
