@@ -1,0 +1,4 @@
+# 換行固定：.sh 一定要 LF（Linux/Git Bash），.cmd 用 CRLF（Windows）
+* text=auto
+*.sh text eol=lf
+*.cmd text eol=crlf

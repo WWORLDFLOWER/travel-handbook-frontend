@@ -1,0 +1,1924 @@
+{
+  "trip": {
+    "title": "德瑞自駕手冊",
+    "subtitle": "德國・法國・瑞士 12 天 11 夜自駕",
+    "start": "2025-10-03",
+    "end": "2025-10-14",
+    "people": 5,
+    "eurRate": 35.57,
+    "chfRate": 38.33
+  },
+  "days": [
+    {
+      "date": "2025-10-03",
+      "no": 1,
+      "country": "TW",
+      "title": "出發！桃園 → 香港 → 慕尼黑",
+      "route": "出發 → 桃園機場 → 搭飛機到慕尼黑"
+    },
+    {
+      "date": "2025-10-04",
+      "no": 2,
+      "country": "DE",
+      "title": "慕尼黑啤酒節 & 童話小鎮羅騰堡",
+      "route": "抵達慕尼黑機場 → 機場領車 → 慕尼黑啤酒節 → 羅騰堡 → 超市 → 民宿 check-in → 吃飯休息"
+    },
+    {
+      "date": "2025-10-05",
+      "no": 3,
+      "country": "FR",
+      "title": "羅騰堡晨間散步 → 法國科爾瑪",
+      "route": "退房出發 → 逛羅騰堡 → 前往科爾瑪（法國邊境）→ 逛科爾瑪小鎮 → 民宿 check-in → 吃飯休息"
+    },
+    {
+      "date": "2025-10-06",
+      "no": 4,
+      "country": "CH",
+      "title": "進入瑞士：策馬特 & 戈爾內格拉特",
+      "route": "7:00 退房出發 → 特施火車站停車 → 搭火車到策馬特 → 飯店 check-in → 搭火車上戈爾內格拉特觀景台 → 走到 Rotenboden 再坐車下山 → 吃黑面羊"
+    },
+    {
+      "date": "2025-10-07",
+      "no": 5,
+      "country": "CH",
+      "title": "馬特洪峰黃金日出 → 因特拉肯",
+      "route": "看黃金日出 → 回飯店吃早餐 → 退房 → 纜車到 Sunnegga → 看 Leisee 湖面倒影 → 回策馬特小鎮 → Migros 超市吃烤雞 → 坐火車回特施 → 開車到因特拉肯 → 民宿 check-in"
+    },
+    {
+      "date": "2025-10-08",
+      "no": 6,
+      "country": "CH",
+      "title": "First 山頂冒險 & 布里恩茲湖",
+      "route": "出發 → 格林德瓦 → 搭纜車上 First → 玩 First 設施（卡丁車、飛鷹…）→ 布里恩茲湖 → 回民宿（同 Day 5 住宿）"
+    },
+    {
+      "date": "2025-10-09",
+      "no": 7,
+      "country": "CH",
+      "title": "登上歐洲屋脊少女峰 → 琉森",
+      "route": "退房出發 → 格林德瓦車站 → 纜車 + 火車到少女峰頂 → 拿登頂護照蓋章 → 下山 → 前往琉森 → 逛琉森市區 → 吃起司鍋 → 蘇黎世飯店 check-in"
+    },
+    {
+      "date": "2025-10-10",
+      "no": 8,
+      "country": "DE",
+      "title": "回到德國：新天鵝堡",
+      "route": "退房出發 → 避開奧地利 → 前往新天鵝堡 → 民宿 check-in → 在民宿開的餐廳吃飯"
+    },
+    {
+      "date": "2025-10-11",
+      "no": 9,
+      "country": "DE",
+      "title": "國王湖 & 巴伐利亞鹽礦",
+      "route": "退房出發 → 國王湖 → 巴伐利亞鹽礦 → 前往慕尼黑 → 小逛慕尼黑老城區 → 民宿 check-in"
+    },
+    {
+      "date": "2025-10-12",
+      "no": 10,
+      "country": "DE",
+      "title": "慕尼黑王宮 & 皇家啤酒屋",
+      "route": "出發 → 慕尼黑王宮 → 慕尼黑老城區 → 皇家啤酒屋 → 回民宿（同 Day 9 住宿）"
+    },
+    {
+      "date": "2025-10-13",
+      "no": 11,
+      "country": "DE",
+      "title": "加油還車，準備回家",
+      "route": "退房出發 → 慕尼黑機場 → 加油還車 → 搭飛機回台灣"
+    },
+    {
+      "date": "2025-10-14",
+      "no": 12,
+      "country": "TW",
+      "title": "平安回到台灣",
+      "route": "飛機抵達桃園機場"
+    }
+  ],
+  "items": [
+    {
+      "id": "d1-flight",
+      "date": "2025-10-03",
+      "time": "19:30",
+      "title": "桃園機場搭飛機",
+      "category": "交通",
+      "desc": "國泰航空，香港轉機到慕尼黑。",
+      "details": [
+        "10/3 TPE 19:30 → HKG 21:30（2h）CX451",
+        "香港停留 3h40min",
+        "10/4 HKG 01:10 → MUC 07:55（12h45min）CX301"
+      ],
+      "costs": [
+        {
+          "label": "機票（來回）",
+          "perPerson": true,
+          "twd": 29291
+        },
+        {
+          "label": "桃園接送機",
+          "twd": 2640
+        }
+      ],
+      "tips": [
+        "2025 年 5 月初旅展第一個禮拜訂票",
+        "國泰學生有學生方案"
+      ]
+    },
+    {
+      "id": "d2-arrive",
+      "date": "2025-10-04",
+      "time": "07:55",
+      "title": "抵達慕尼黑機場",
+      "category": "交通",
+      "maps": [
+        {
+          "label": "慕尼黑機場",
+          "url": "https://www.google.com/maps/search/?api=1&query=Munich+Airport",
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "d2-car",
+      "date": "2025-10-04",
+      "time": "09:30–12:00",
+      "title": "機場取車",
+      "category": "交通",
+      "desc": "在機場租車，接下來 10 天全程自駕。",
+      "costs": [
+        {
+          "label": "租車費（已扣掉退回的押金）",
+          "twd": 52664
+        }
+      ],
+      "tips": [
+        "租車櫃檯一開始會開很高的價，一定要有耐心跟他喊價（Sixt 會這樣）",
+        "取車到還車都在慕尼黑機場"
+      ]
+    },
+    {
+      "id": "d2-mcd",
+      "date": "2025-10-04",
+      "time": "12:00",
+      "title": "慕尼黑麥當勞",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "午餐",
+          "eur": 34.24,
+          "twd": 1224
+        }
+      ]
+    },
+    {
+      "id": "d2-oktoberfest",
+      "date": "2025-10-04",
+      "time": "13:00–14:30",
+      "title": "慕尼黑啤酒節",
+      "category": "景點",
+      "drive": "機場出發 40min / 38km",
+      "desc": "每年 9 月中到 10 月初舉辦，剛好碰上最後幾天。",
+      "maps": [
+        {
+          "label": "啤酒節會場位置",
+          "url": "https://maps.app.goo.gl/KWcEc3rAg9MW6yue9"
+        },
+        {
+          "label": "停車場（路邊有格子也能停）",
+          "url": "https://maps.app.goo.gl/K6nvhijpTZwF6V7J9"
+        },
+        {
+          "label": "Parkplatz Theresienwiese",
+          "url": "https://www.google.com/maps/place/Parkplatz+Theresienwiese/data=!4m2!3m1!19sChIJ65waQlXfnUcRm1KgISFx2gY"
+        }
+      ],
+      "links": [
+        {
+          "label": "啤酒節官網",
+          "url": "https://www.oktoberfest.de/en",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "入場",
+          "free": true
+        }
+      ],
+      "tips": [
+        "如果要進帳篷，要提早訂位"
+      ]
+    },
+    {
+      "id": "d2-rothenburg",
+      "date": "2025-10-04",
+      "time": "17:00–",
+      "title": "羅騰堡",
+      "category": "景點",
+      "drive": "慕尼黑出發 2h40m / 203km",
+      "desc": "保存完整的中世紀城牆小鎮，晚上散步很有氣氛。",
+      "maps": [
+        {
+          "label": "羅騰堡",
+          "url": "https://maps.app.goo.gl/2fg8vvopVsBsA49Z7"
+        },
+        {
+          "label": "羅騰堡城牆",
+          "url": "https://www.google.com/maps/place/%E7%BE%85%E9%A8%B0%E5%A0%A1%E5%9F%8E%E7%89%86/data=!4m2!3m1!19sChIJGexcNaSPmEcRsUpJ1mBLsS0"
+        }
+      ],
+      "links": [
+        {
+          "label": "羅騰堡旅遊局",
+          "url": "https://www.rothenburg-tourismus.de/en/",
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "d2-supermarket",
+      "date": "2025-10-04",
+      "time": "19:00",
+      "title": "羅騰堡超市採買晚餐",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "超市",
+          "eur": 26.97
+        }
+      ]
+    },
+    {
+      "id": "d2-stay",
+      "date": "2025-10-04",
+      "time": "住宿",
+      "title": "埃伯萊因格斯特豪斯酒店（羅騰堡）",
+      "category": "住宿",
+      "desc": "距離市區大約走路 10 分鐘。Check-in 15:00 / Check-out 10/5 09:00",
+      "booking": "https://www.booking.com/Share-8tQqSK",
+      "maps": [
+        {
+          "label": "飯店位置",
+          "url": "https://maps.app.goo.gl/6CHioWHa5MU6w1ks8"
+        }
+      ],
+      "costs": [
+        {
+          "label": "房費 1 晚（現場刷卡 €150）",
+          "eur": 150,
+          "twd": 5364
+        }
+      ]
+    },
+    {
+      "id": "d3-walk",
+      "date": "2025-10-05",
+      "time": "08:00–10:00",
+      "title": "逛羅騰堡",
+      "category": "景點",
+      "desc": "早上再逛一圈，有很多賣小物的店。",
+      "maps": [
+        {
+          "label": "羅騰堡老城區",
+          "url": "https://maps.app.goo.gl/mUgEyRWMSDkaWSwc9"
+        }
+      ],
+      "costs": [
+        {
+          "label": "麵包店",
+          "eur": 10.65
+        },
+        {
+          "label": "麵包店（第二次）",
+          "eur": 7.1
+        }
+      ]
+    },
+    {
+      "id": "d3-depart",
+      "date": "2025-10-05",
+      "time": "10:00",
+      "title": "退房 + 出發前往科爾瑪",
+      "category": "交通",
+      "drive": "羅騰堡 → 科爾瑪 3h32m / 341km",
+      "costs": [
+        {
+          "label": "路上的麥當勞（午餐）",
+          "eur": 9.5
+        }
+      ]
+    },
+    {
+      "id": "d3-colmar",
+      "date": "2025-10-05",
+      "time": "15:00–",
+      "title": "科爾瑪（法國）",
+      "category": "景點",
+      "desc": "法國邊境的彩色童話小鎮，《霍爾的移動城堡》場景原型。",
+      "maps": [
+        {
+          "label": "小鎮位置",
+          "url": "https://maps.app.goo.gl/GdVdCVhcGhBtWBpF6"
+        },
+        {
+          "label": "霍爾的移動城堡原型（Maison Pfister）",
+          "url": "https://maps.app.goo.gl/s6zTBHznu2GAF1G28"
+        },
+        {
+          "label": "當地菜市場 Marché Couvert",
+          "url": "https://maps.app.goo.gl/CFDaBSRfQtRQFuSg7"
+        },
+        {
+          "label": "小威尼斯 Petite Venise",
+          "url": "https://www.google.com/maps/search/?api=1&query=Petite+Venise+Colmar",
+          "added": true
+        }
+      ],
+      "links": [
+        {
+          "label": "科爾瑪旅遊局",
+          "url": "https://www.tourisme-colmar.com/en",
+          "added": true
+        }
+      ],
+      "tips": [
+        "傳統市場：週六開到 18:00、週日開到 14:00、週一不開"
+      ]
+    },
+    {
+      "id": "d3-supermarket",
+      "date": "2025-10-05",
+      "time": "18:30",
+      "title": "科爾瑪超市",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "超市",
+          "eur": 13.39
+        }
+      ]
+    },
+    {
+      "id": "d3-stay",
+      "date": "2025-10-05",
+      "time": "住宿",
+      "title": "Mama with aircon including parking 2 cars（科爾瑪）",
+      "category": "住宿",
+      "desc": "含 2 個停車位的民宿。Check-in 17:00 / Check-out 10/6 07:00",
+      "booking": "https://www.booking.com/Share-RTKakm",
+      "costs": [
+        {
+          "label": "房費 1 晚",
+          "eur": 140.22,
+          "twd": 5006
+        },
+        {
+          "label": "城市稅（現金）",
+          "eur": 2.75
+        }
+      ]
+    },
+    {
+      "id": "d4-depart",
+      "date": "2025-10-06",
+      "time": "07:00",
+      "title": "退房 + 出發前往瑞士",
+      "category": "交通",
+      "drive": "科爾瑪 → 特施 4h / 287km",
+      "costs": [
+        {
+          "label": "科爾瑪加油",
+          "eur": 105,
+          "twd": 3755
+        },
+        {
+          "label": "科爾瑪加第二次油",
+          "eur": 4.9,
+          "twd": 175
+        }
+      ],
+      "tips": [
+        "不想太趕、有時間的話，前一晚可以住特施附近"
+      ]
+    },
+    {
+      "id": "d4-carTrain",
+      "date": "2025-10-06",
+      "time": "途中",
+      "title": "勒奇山隧道汽車火車（Kandersteg → Goppenstein）",
+      "category": "交通",
+      "desc": "連人帶車開上火車穿過山洞，是伯恩州和瓦萊州之間的捷徑（不走要繞一大圈、多開約 4 小時）。",
+      "maps": [
+        {
+          "label": "汽車火車站",
+          "url": "https://maps.app.goo.gl/BVJPYVhEunUpmyAi7"
+        }
+      ],
+      "links": [
+        {
+          "label": "BLS 汽車火車（可線上預約）",
+          "url": "https://www.bls.ch/en/fahren/autoverlad"
+        }
+      ],
+      "costs": [
+        {
+          "label": "汽車火車（算車，乘客不另收）",
+          "chf": 28,
+          "twd": 1072
+        }
+      ],
+      "tips": [
+        "最左邊是線上預約車道，沒先買票的只能開中間車道（Kasse）現場買",
+        "約半小時一班，火車滿了就等下一班",
+        "上火車要跟著站務員指示把車靠很近、熄火、拉手煞車"
+      ]
+    },
+    {
+      "id": "d4-taesch",
+      "date": "2025-10-06",
+      "time": "13:30",
+      "title": "Matterhorn Terminal Täsch（停車）",
+      "category": "交通",
+      "desc": "策馬特禁止一般汽車進入，車停在特施，再搭接駁火車進去。",
+      "maps": [
+        {
+          "label": "特施車站 & 停車場",
+          "url": "https://maps.app.goo.gl/uHeJ879AL6p7Zm379"
+        },
+        {
+          "label": "比較便宜的停車場 Alpine Parking",
+          "url": "https://maps.app.goo.gl/cnx8S9fiyxXspdU17"
+        }
+      ],
+      "links": [
+        {
+          "label": "停車場 & 接駁火車預約",
+          "url": "https://www.matterhorngotthardbahn.ch/en/stories/parking-matterhorn-terminal-taesch"
+        }
+      ],
+      "costs": [
+        {
+          "label": "Täsch 停車（2 天）",
+          "chf": 22,
+          "twd": 845
+        }
+      ],
+      "tips": [
+        "Alpine Parking Parkhaus Täsch 比較便宜，約 CHF 11 / 天",
+        "我們最後停在火車站裡面的停車場，覺得比較安全",
+        "行李可以用黑色塑膠袋蓋起來，比較不顯眼"
+      ]
+    },
+    {
+      "id": "d4-shuttle",
+      "date": "2025-10-06",
+      "time": "13:30–14:00",
+      "title": "搭接駁火車到策馬特",
+      "category": "交通",
+      "drive": "Täsch → Zermatt 火車 12min",
+      "maps": [
+        {
+          "label": "Matterhorn Terminal Täsch",
+          "url": "https://maps.app.goo.gl/9HQjk3GCiptNxphE6"
+        }
+      ],
+      "costs": [
+        {
+          "label": "Täsch → 策馬特 火車票",
+          "chf": 21.5,
+          "twd": 823
+        }
+      ],
+      "tips": [
+        "05:55–21:55 每 20 分鐘一班",
+        "有半價卡一人 CHF 8.2"
+      ]
+    },
+    {
+      "id": "d4-stay",
+      "date": "2025-10-06",
+      "time": "住宿",
+      "title": "阿爾夫貝爾酒店 Hotel Alphubel（策馬特）",
+      "category": "住宿",
+      "desc": "14:00–15:30 先到飯店放東西。Check-in 13:00 / Check-out 10/7 07:45",
+      "booking": "https://www.booking.com/Share-AMuKkU",
+      "maps": [
+        {
+          "label": "飯店位置",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hotel+Alphubel+Zermatt",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "房費 1 晚",
+          "chf": 459,
+          "twd": 17627
+        },
+        {
+          "label": "城市稅",
+          "chf": 20,
+          "twd": 766
+        }
+      ]
+    },
+    {
+      "id": "d4-gornergrat",
+      "date": "2025-10-06",
+      "time": "15:30–17:30",
+      "title": "戈爾內格拉特觀景台",
+      "category": "景點",
+      "drive": "策馬特 GGB 站搭登山火車 33min",
+      "desc": "看馬特洪峰最經典的觀景台。",
+      "maps": [
+        {
+          "label": "戈爾內格拉特",
+          "url": "https://maps.app.goo.gl/FM7dyPhqAEYC8zMM6"
+        }
+      ],
+      "links": [
+        {
+          "label": "官網",
+          "url": "https://www.gornergrat.ch/de/pages/sommeraktivitaeten-am-gornergrat"
+        },
+        {
+          "label": "火車時刻表",
+          "url": "https://www.gornergrat.ch/en/pages/timetable-gornergrat-bahn"
+        },
+        {
+          "label": "訂票",
+          "url": "https://www.matterhornparadise.ch/en/book/tickets/gornegrat-roundtrip"
+        },
+        {
+          "label": "介紹文章",
+          "url": "https://www.leo-travel.idv.tw/60873/swiss-zermatt-matterhorn-gornergrat"
+        }
+      ],
+      "costs": [
+        {
+          "label": "登山火車來回（5 人，半價卡）",
+          "chf": 330,
+          "twd": 12637
+        }
+      ],
+      "tips": [
+        "上山坐右邊才看得到馬特洪峰",
+        "末班車時間要看季節，我們 10 月去的時候是 19:00 多"
+      ]
+    },
+    {
+      "id": "d4-riffelsee",
+      "date": "2025-10-06",
+      "time": "17:30–20:00",
+      "title": "走下山到 Rotenboden 看 Riffelsee",
+      "category": "景點",
+      "desc": "從觀景台走到前一站 Rotenboden，看 Riffelsee 湖面的馬特洪峰倒影，再坐車下山。",
+      "maps": [
+        {
+          "label": "Riffelsee",
+          "url": "https://www.google.com/maps/search/?api=1&query=Riffelsee+Zermatt",
+          "added": true
+        }
+      ],
+      "tips": [
+        "大概 18 點多就走完了，但中間有一班車沒來，等末班車等很久"
+      ]
+    },
+    {
+      "id": "d4-blacknose",
+      "date": "2025-10-06",
+      "time": "20:00–21:30",
+      "title": "吃黑面羊：Restaurant Julen",
+      "category": "美食",
+      "desc": "策馬特 Romantik Hotel Julen 的餐廳，飯店自己養瓦萊州特產的黑面羊，招牌就是黑面羊料理。",
+      "maps": [
+        {
+          "label": "Restaurant Julen",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurant+Julen+Zermatt",
+          "added": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Restaurant Julen 官網",
+          "url": "https://www.julen.ch/en/restaurant-julen/",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "晚餐",
+          "chf": 186,
+          "twd": 7123
+        }
+      ]
+    },
+    {
+      "id": "d5-sunrise",
+      "date": "2025-10-07",
+      "time": "07:00–07:40",
+      "title": "看馬特洪峰黃金日出",
+      "category": "景點",
+      "desc": "在策馬特的教堂橋看日出，太陽照到山頂那幾分鐘，整座馬特洪峰變成金色。",
+      "maps": [
+        {
+          "label": "看日出的地方：教堂橋 Kirchbrücke",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kirchbr%C3%BCcke+Zermatt",
+          "added": true
+        },
+        {
+          "label": "Zermatt Matterhorn Viewpoint",
+          "url": "https://www.google.com/maps/place/Zermatt+Matterhorn+Viewpoint/data=!4m2!3m1!19sChIJy7iTXPA3j0cRlYtf2dg14OA"
+        }
+      ],
+      "tips": [
+        "10/7 日出時間 7:36"
+      ]
+    },
+    {
+      "id": "d5-checkout",
+      "date": "2025-10-07",
+      "time": "07:40–09:00",
+      "title": "回飯店吃早餐 + 退房",
+      "category": "住宿"
+    },
+    {
+      "id": "d5-sunnegga",
+      "date": "2025-10-07",
+      "time": "09:00–12:00",
+      "title": "坐纜車到 Sunnegga 看 Leisee 倒影",
+      "category": "景點",
+      "desc": "Leisee 是可以拍到馬特洪峰倒影的小湖，原本規劃的五湖健行改成只走 Leisee。",
+      "maps": [
+        {
+          "label": "Sunnegga Express 纜車站",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sunnegga+Express+Zermatt",
+          "added": true
+        },
+        {
+          "label": "Leisee",
+          "url": "https://www.google.com/maps/search/?api=1&query=Leisee+Zermatt",
+          "added": true
+        }
+      ],
+      "links": [
+        {
+          "label": "纜車營運時間",
+          "url": "https://www.matterhornparadise.ch/en/information/operating-hours/lifts-and-pistes"
+        },
+        {
+          "label": "策馬特導覽地圖",
+          "url": "https://zermatt.swiss/en/map?type=summer"
+        },
+        {
+          "label": "五湖健行介紹文章",
+          "url": "https://www.leo-travel.idv.tw/60295/swiss-zermatt-matterhorn-5-seenweg-murmelweg"
+        }
+      ],
+      "costs": [
+        {
+          "label": "Sunnegga 纜車來回",
+          "chf": 70,
+          "twd": 2689
+        }
+      ],
+      "tips": [
+        "Zermatt → Sunnegga 每 10–20 分一班，8:30–17:20",
+        "Sunnegga → Blauherd 那段 10 月可能沒開"
+      ]
+    },
+    {
+      "id": "d5-town",
+      "date": "2025-10-07",
+      "time": "12:00–13:30",
+      "title": "逛策馬特市區",
+      "category": "景點",
+      "links": [
+        {
+          "label": "策馬特旅遊局",
+          "url": "https://www.zermatt.ch/en",
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "d5-migros",
+      "date": "2025-10-07",
+      "time": "12:30",
+      "title": "策馬特 Migros 超市吃烤雞",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "Migros 超市",
+          "chf": 13.65,
+          "twd": 524
+        },
+        {
+          "label": "喉糖",
+          "chf": 3,
+          "twd": 115
+        }
+      ],
+      "maps": [
+        {
+          "label": "Migros 策馬特",
+          "url": "https://www.google.com/maps/search/?api=1&query=Migros+Zermatt",
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "d5-shuttle",
+      "date": "2025-10-07",
+      "time": "13:30–14:00",
+      "title": "坐火車回 Täsch 拿車",
+      "category": "交通",
+      "costs": [
+        {
+          "label": "策馬特 → Täsch 火車票",
+          "chf": 21.5,
+          "twd": 826
+        }
+      ]
+    },
+    {
+      "id": "d5-carTrain",
+      "date": "2025-10-07",
+      "time": "途中",
+      "title": "勒奇山隧道汽車火車（Goppenstein → Kandersteg）",
+      "category": "交通",
+      "desc": "回程一樣搭汽車火車穿山洞到伯恩州。",
+      "maps": [
+        {
+          "label": "汽車火車站",
+          "url": "https://maps.app.goo.gl/BVJPYVhEunUpmyAi7"
+        }
+      ],
+      "links": [
+        {
+          "label": "BLS 汽車火車",
+          "url": "https://www.bls.ch/en/fahren/autoverlad"
+        }
+      ],
+      "costs": [
+        {
+          "label": "汽車火車",
+          "chf": 28,
+          "twd": 1076
+        }
+      ]
+    },
+    {
+      "id": "d5-interlaken",
+      "date": "2025-10-07",
+      "time": "18:00–",
+      "title": "因特拉肯",
+      "category": "景點",
+      "drive": "2h20min / 112km",
+      "desc": "夾在圖恩湖和布里恩茲湖中間的小鎮，接下來兩晚的基地。",
+      "maps": [
+        {
+          "label": "因特拉肯",
+          "url": "https://maps.app.goo.gl/Le1eYwq9K8ogDiSk8"
+        },
+        {
+          "label": "勞力士（可拿免費勺子）",
+          "url": "https://maps.app.goo.gl/fA49a7PLTvLho6Nh8"
+        }
+      ]
+    },
+    {
+      "id": "d5-coop",
+      "date": "2025-10-07",
+      "time": "19:00",
+      "title": "因特拉肯 Coop 超市",
+      "category": "美食",
+      "maps": [
+        {
+          "label": "Coop 超市",
+          "url": "https://maps.app.goo.gl/MV2b7TszVZJ7skKR7"
+        }
+      ],
+      "costs": [
+        {
+          "label": "超市",
+          "chf": 66.6,
+          "twd": 2554
+        }
+      ]
+    },
+    {
+      "id": "d5-stay",
+      "date": "2025-10-07",
+      "time": "住宿",
+      "title": "Villa Matten（因特拉肯，2 晚）",
+      "category": "住宿",
+      "desc": "Check-in 10/7 19:15 / Check-out 10/9 07:00",
+      "booking": "https://www.booking.com/Share-v3bbeOP",
+      "maps": [
+        {
+          "label": "民宿位置",
+          "url": "https://www.google.com/maps/search/?api=1&query=Villa+Matten+Interlaken",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "房費 2 晚",
+          "chf": 590,
+          "twd": 22580
+        }
+      ]
+    },
+    {
+      "id": "d6-depart",
+      "date": "2025-10-08",
+      "time": "07:30",
+      "title": "出發前往格林德瓦",
+      "category": "交通"
+    },
+    {
+      "id": "d6-first",
+      "date": "2025-10-08",
+      "time": "08:00–15:00",
+      "title": "格林德瓦纜車上 First",
+      "category": "景點",
+      "desc": "First 山頂有懸崖步道、飛鷹滑索、山地卡丁車、滑板車等設施。",
+      "maps": [
+        {
+          "label": "Firstbahn 纜車站",
+          "url": "https://www.google.com/maps/place/Firstbahn+AG/data=!4m2!3m1!19sChIJFXHzJfqbj0cRuejFQmFtnHM"
+        },
+        {
+          "label": "Firstbahn 停車場",
+          "url": "https://www.google.com/maps/place/Parkplatz+Grindelwald+Firstbahn/data=!4m2!3m1!19sChIJGZ6DSPmbj0cRgPRhTW3sPiA"
+        }
+      ],
+      "links": [
+        {
+          "label": "First 官網",
+          "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/"
+        },
+        {
+          "label": "Adventure 套票",
+          "url": "https://www.jungfrau.ch/en-gb/grindelwaldfirst/adventure-package/"
+        },
+        {
+          "label": "時刻表",
+          "url": "https://www.jungfrau.ch/en-gb/plan-book/timetable/"
+        }
+      ],
+      "costs": [
+        {
+          "label": "First 纜車 + 活動（5 人）",
+          "chf": 321,
+          "twd": 12311
+        },
+        {
+          "label": "First 停車",
+          "chf": 5,
+          "twd": 192
+        }
+      ],
+      "tips": [
+        "首班纜車 8:00，約 1 分鐘一班",
+        "停車約 CHF 2.5 / 小時",
+        "建議早點去，越晚人越多，排隊要排很久",
+        "卡丁車很好玩！",
+        "First 也可以用半價卡",
+        "我們 3 個人買「纜車 + 2 項活動」、2 個人買「纜車 + 1 項活動」"
+      ]
+    },
+    {
+      "id": "d6-brienz",
+      "date": "2025-10-08",
+      "time": "15:30–18:40",
+      "title": "布里恩茲湖",
+      "category": "景點",
+      "desc": "湖水是夢幻的土耳其藍，沿湖小鎮都很好拍。",
+      "maps": [
+        {
+          "label": "遊湖出發碼頭（73min）",
+          "url": "https://maps.app.goo.gl/WLysLuMwiBTWUiUX9"
+        },
+        {
+          "label": "湖邊小鎮 Bönigen",
+          "url": "https://maps.app.goo.gl/TPkkgmNmUwA3kbar8"
+        },
+        {
+          "label": "湖邊小鎮 Brienz",
+          "url": "https://maps.app.goo.gl/ED1JJScEJWVeD7mS7"
+        },
+        {
+          "label": "《愛的迫降》Iseltwald",
+          "url": "https://maps.app.goo.gl/LibSJU9koRhixXSz6"
+        },
+        {
+          "label": "秘境瀑布 Giessbachfälle",
+          "url": "https://maps.app.goo.gl/VS7X2rfuqgPQXutZA"
+        }
+      ],
+      "costs": [
+        {
+          "label": "布里恩茲湖停車",
+          "chf": 1,
+          "twd": 38
+        }
+      ]
+    },
+    {
+      "id": "d6-supermarket",
+      "date": "2025-10-08",
+      "time": "19:00",
+      "title": "因特拉肯超市（Migros、Denner）",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "Migros",
+          "chf": 59.8,
+          "twd": 2293
+        },
+        {
+          "label": "Denner",
+          "chf": 4.85,
+          "twd": 186
+        },
+        {
+          "label": "Denner",
+          "chf": 2.95,
+          "twd": 113
+        },
+        {
+          "label": "超市停車",
+          "chf": 1.5,
+          "twd": 58
+        }
+      ]
+    },
+    {
+      "id": "d6-stay",
+      "date": "2025-10-08",
+      "time": "住宿",
+      "title": "Villa Matten（因特拉肯，第 2 晚）",
+      "category": "住宿",
+      "desc": "同 Day 5 住宿，房費已算在前一晚。",
+      "booking": "https://www.booking.com/Share-v3bbeOP"
+    },
+    {
+      "id": "d7-depart",
+      "date": "2025-10-09",
+      "time": "07:30",
+      "title": "退房 + 出發",
+      "category": "交通"
+    },
+    {
+      "id": "d7-jungfrau",
+      "date": "2025-10-09",
+      "time": "08:00–13:30",
+      "title": "Eiger Express 登頂少女峰",
+      "category": "景點",
+      "drive": "因特拉肯 → 格林德瓦 30min / 19.7km",
+      "desc": "Grindelwald Terminal —15min→ Eigergletscher —26min（中間停 Eismeer 5 分鐘）→ Jungfraujoch – Top of Europe。",
+      "maps": [
+        {
+          "label": "Grindelwald Terminal（德林格瓦站）",
+          "url": "https://maps.app.goo.gl/f5566kgeMghoT6dW7"
+        },
+        {
+          "label": "少女峰頂 Jungfraujoch",
+          "url": "https://www.google.com/maps/search/?api=1&query=Jungfraujoch",
+          "added": true
+        }
+      ],
+      "links": [
+        {
+          "label": "時刻表 / 訂票",
+          "url": "https://www.jungfrau.ch/en-gb/plan-book/timetable/"
+        },
+        {
+          "label": "少女峰官網",
+          "url": "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "纜車 + 登頂火車（5 人，半價卡）",
+          "chf": 552.5,
+          "twd": 21203
+        },
+        {
+          "label": "格林德瓦停車",
+          "chf": 5.25,
+          "twd": 201
+        }
+      ],
+      "tips": [
+        "首班 7:46",
+        "山頂可以拿登頂護照蓋章",
+        "下山會路過龍疆"
+      ]
+    },
+    {
+      "id": "d7-lindt",
+      "date": "2025-10-09",
+      "time": "11:00",
+      "title": "少女峰頂瑞士蓮",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "瑞士蓮巧克力",
+          "chf": 7.85,
+          "twd": 301
+        }
+      ]
+    },
+    {
+      "id": "d7-lucerne",
+      "date": "2025-10-09",
+      "time": "16:00–20:00",
+      "title": "琉森湖 & 琉森市區",
+      "category": "景點",
+      "drive": "1h30m / 72km",
+      "maps": [
+        {
+          "label": "卡貝爾橋",
+          "url": "https://www.google.com/maps/place/%E5%8D%A1%E8%B2%9D%E7%88%BE%E6%A9%8B/data=!4m2!3m1!19sChIJ5cLMMJ_7j0cRNw7SwdMQsCA"
+        }
+      ],
+      "links": [
+        {
+          "label": "琉森湖遊船",
+          "url": "https://www.lakelucerne.ch/en/",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "琉森停車場",
+          "chf": 6,
+          "twd": 230
+        }
+      ]
+    },
+    {
+      "id": "d7-fondue",
+      "date": "2025-10-09",
+      "time": "18:00",
+      "title": "琉森起司鍋：Fondue House Du Pont",
+      "category": "美食",
+      "maps": [
+        {
+          "label": "Fondue House Du Pont",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fondue+House+Du+Pont+Luzern",
+          "added": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Fondue House Du Pont 官網",
+          "url": "https://www.fondue-dupont.ch/",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "晚餐",
+          "chf": 186,
+          "twd": 7138
+        }
+      ]
+    },
+    {
+      "id": "d7-stay",
+      "date": "2025-10-09",
+      "time": "住宿",
+      "title": "MEININGER Hotel Zürich Greencity（蘇黎世）",
+      "category": "住宿",
+      "desc": "Check-in 17:00 / Check-out 10/10 09:00",
+      "booking": "https://www.booking.com/Share-asyttiR",
+      "maps": [
+        {
+          "label": "飯店位置",
+          "url": "https://maps.app.goo.gl/1vwzJ82uucBqaUz77"
+        }
+      ],
+      "costs": [
+        {
+          "label": "房費 1 晚 + 停車費",
+          "chf": 211,
+          "twd": 8097
+        }
+      ]
+    },
+    {
+      "id": "d8-depart",
+      "date": "2025-10-10",
+      "time": "09:00",
+      "title": "退房 + 出發（避開奧地利）",
+      "category": "交通",
+      "desc": "當時奧地利還不承認台灣駕照，所以繞路不經過奧地利（2025/11 起已開放）。",
+      "costs": [
+        {
+          "label": "蘇黎世超市",
+          "chf": 17.6,
+          "twd": 673
+        }
+      ]
+    },
+    {
+      "id": "d8-ferry",
+      "date": "2025-10-10",
+      "time": "途中",
+      "title": "康士坦茲汽車渡輪",
+      "category": "交通",
+      "desc": "開車上渡輪橫越波登湖回到德國。",
+      "maps": [
+        {
+          "label": "Konstanz–Meersburg 汽車渡輪",
+          "url": "https://www.google.com/maps/search/?api=1&query=Autof%C3%A4hre+Konstanz+Meersburg",
+          "added": true
+        }
+      ],
+      "links": [
+        {
+          "label": "渡輪官網",
+          "url": "https://www.stadtwerke-konstanz.de/en/mobility/car-ferry",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "汽車渡輪",
+          "eur": 18.9
+        }
+      ]
+    },
+    {
+      "id": "d8-lunch",
+      "date": "2025-10-10",
+      "time": "12:30",
+      "title": "Kaufland 超市 & 餐車（埃里斯科什）",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "Kaufland 超市",
+          "eur": 31.47
+        },
+        {
+          "label": "豬頸漢堡",
+          "eur": 12.6
+        },
+        {
+          "label": "餐車烤雞",
+          "eur": 13.9
+        }
+      ],
+      "desc": "波登湖邊小鎮埃里斯科什的 Kaufland，很大間、有很大的停車場，超市裡還有 Esprit。",
+      "maps": [
+        {
+          "label": "Kaufland Eriskirch",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kaufland+Eriskirch",
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "d8-neuschwanstein",
+      "date": "2025-10-10",
+      "time": "15:00–18:00",
+      "title": "新天鵝堡",
+      "category": "景點",
+      "drive": "3h / 211km",
+      "desc": "迪士尼城堡的原型，從瑪麗安橋看最漂亮。",
+      "maps": [
+        {
+          "label": "停車場 Parkplatz P3",
+          "url": "https://www.google.com/maps/place/Parkplatz+P3/data=!4m2!3m1!19sChIJuwJlKhP3nEcRqU85MgCfuUU"
+        },
+        {
+          "label": "瑪麗安橋 Marienbrücke",
+          "url": "https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke",
+          "added": true
+        }
+      ],
+      "links": [
+        {
+          "label": "售票中心官網",
+          "url": "https://www.hohenschwangau.de/en",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "上山接駁巴士",
+          "eur": 17.5
+        },
+        {
+          "label": "下山馬車",
+          "eur": 40
+        },
+        {
+          "label": "新天鵝堡停車",
+          "eur": 12,
+          "twd": 428
+        }
+      ],
+      "tips": [
+        "上山：走路 35–45 分、接駁車上山 €1.8（下山 €1）、馬車下山 €3（上山 €6）",
+        "城堡內部門票約 €21 / 人"
+      ]
+    },
+    {
+      "id": "d8-fuel",
+      "date": "2025-10-10",
+      "time": "18:30",
+      "title": "新天鵝堡附近加油",
+      "category": "交通",
+      "costs": [
+        {
+          "label": "加油",
+          "eur": 90
+        }
+      ]
+    },
+    {
+      "id": "d8-stay",
+      "date": "2025-10-10",
+      "time": "20:00",
+      "title": "Hotel Zum Lamm（新天鵝堡附近）",
+      "category": "住宿",
+      "drive": "1h10m / 64.7km",
+      "desc": "德國鄉村民宿，樓下有自己的餐廳。Check-in 17:00 / Check-out 10/11 07:00",
+      "booking": "https://www.booking.com/Share-5OdCWU",
+      "costs": [
+        {
+          "label": "房費 1 晚",
+          "eur": 211.14,
+          "twd": 7571
+        },
+        {
+          "label": "城市稅（現金）",
+          "eur": 15
+        }
+      ]
+    },
+    {
+      "id": "d8-dinner",
+      "date": "2025-10-10",
+      "time": "20:30",
+      "title": "民宿開的德國鄉村餐廳",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "晚餐",
+          "eur": 53.7
+        }
+      ]
+    },
+    {
+      "id": "d9-depart",
+      "date": "2025-10-11",
+      "time": "08:00",
+      "title": "退房 + 出發",
+      "category": "交通"
+    },
+    {
+      "id": "d9-koenigssee",
+      "date": "2025-10-11",
+      "time": "11:00–14:00",
+      "title": "國王湖",
+      "category": "景點",
+      "drive": "2h40m / 199km",
+      "desc": "德國最乾淨的湖，搭遊船到聖巴多羅買教堂。",
+      "maps": [
+        {
+          "label": "國王湖停車場",
+          "url": "https://www.google.com/maps/place/K%C3%B6nigssee+Pkw-Parkplatz/data=!4m2!3m1!19sChIJ0WFx7hDsdkcRqABVObYLsQw"
+        },
+        {
+          "label": "國王湖遊客中心",
+          "url": "https://maps.app.goo.gl/5VYbrsa9YJMKQTnq7"
+        },
+        {
+          "label": "導航中繼點 PIDING OUTLETS",
+          "url": "https://www.google.com/maps/place/PIDING+OUTLETS/data=!4m2!3m1!19sChIJcfwy-ZOOdkcRk4zlhtg7r2Q"
+        }
+      ],
+      "links": [
+        {
+          "label": "國王湖遊船官網",
+          "url": "https://www.seenschifffahrt.de/en/koenigssee/",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "國王湖停車",
+          "eur": 7
+        },
+        {
+          "label": "路邊大亨堡",
+          "eur": 5
+        },
+        {
+          "label": "國王湖餐廳",
+          "eur": 74.07
+        }
+      ],
+      "tips": [
+        "導航順序：PIDING OUTLETS → Bad Reichenhall → 國王湖遊客中心（避開奧地利）",
+        "遊船去程坐右側、回程坐左側",
+        "遊船票規劃時查到約 €28.5 / 人"
+      ]
+    },
+    {
+      "id": "d9-saltmine",
+      "date": "2025-10-11",
+      "time": "14:30–17:00",
+      "title": "巴伐利亞鹽礦",
+      "category": "景點",
+      "drive": "10min / 6.3km",
+      "desc": "穿上礦工服、坐小火車和溜滑梯進到地底鹽礦。",
+      "maps": [
+        {
+          "label": "Salt Mine Berchtesgaden",
+          "url": "https://www.google.com/maps/place/Salt+Mine+Berchtesgaden/data=!4m2!3m1!19sChIJ0WP8i6LsdkcRgCrR9D8Gzys"
+        }
+      ],
+      "links": [
+        {
+          "label": "鹽礦官網",
+          "url": "https://www.salzbergwerk.de/en",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "鹽礦門票（5 人，€25.5 / 人）",
+          "eur": 127.5
+        },
+        {
+          "label": "鹽礦照片",
+          "eur": 12
+        },
+        {
+          "label": "鹽礦冰淇淋",
+          "eur": 6
+        }
+      ]
+    },
+    {
+      "id": "d9-stay",
+      "date": "2025-10-11",
+      "time": "19:00",
+      "title": "拜爾公寓式酒店（慕尼黑，2 晚）",
+      "category": "住宿",
+      "drive": "鹽礦 → 慕尼黑 2h / 155km",
+      "desc": "Check-in 10/11 19:00 / Check-out 10/13 10:00",
+      "booking": "https://www.booking.com/Share-2CJ0Ek",
+      "costs": [
+        {
+          "label": "房費 2 晚",
+          "eur": 340.2,
+          "twd": 12165
+        }
+      ]
+    },
+    {
+      "id": "d9-dinner",
+      "date": "2025-10-11",
+      "time": "20:00",
+      "title": "慕尼黑三明治店（小逛老城區）",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "晚餐",
+          "eur": 21,
+          "twd": 749
+        }
+      ]
+    },
+    {
+      "id": "d10-breakfast",
+      "date": "2025-10-12",
+      "time": "早上",
+      "title": "慕尼黑麵包店 & 早餐咖啡",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "早餐咖啡",
+          "eur": 2
+        },
+        {
+          "label": "麵包店",
+          "eur": 18.5
+        }
+      ]
+    },
+    {
+      "id": "d10-depart",
+      "date": "2025-10-12",
+      "time": "12:00",
+      "title": "出發",
+      "category": "交通"
+    },
+    {
+      "id": "d10-residenz",
+      "date": "2025-10-12",
+      "time": "12:30–15:00",
+      "title": "慕尼黑王宮",
+      "category": "景點",
+      "desc": "巴伐利亞王室的宮殿，房間多到逛不完。",
+      "maps": [
+        {
+          "label": "慕尼黑王宮 Residenz München",
+          "url": "https://www.google.com/maps/search/?api=1&query=Residenz+M%C3%BCnchen",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "門票",
+          "eur": 40,
+          "twd": 1426
+        }
+      ]
+    },
+    {
+      "id": "d10-oldtown",
+      "date": "2025-10-12",
+      "time": "15:00–",
+      "title": "慕尼黑老城區 + 吃吃喝喝",
+      "category": "景點",
+      "maps": [
+        {
+          "label": "瑪麗亞廣場 Marienplatz",
+          "url": "https://www.google.com/maps/search/?api=1&query=Marienplatz+M%C3%BCnchen",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "星巴克",
+          "eur": 10.9
+        },
+        {
+          "label": "冰淇淋",
+          "eur": 6.6
+        },
+        {
+          "label": "冰淇淋（第二次）",
+          "eur": 6.6
+        },
+        {
+          "label": "Five Guys",
+          "eur": 18.5
+        },
+        {
+          "label": "麥當勞",
+          "eur": 7.5
+        }
+      ]
+    },
+    {
+      "id": "d10-hofbraeuhaus",
+      "date": "2025-10-12",
+      "time": "18:00",
+      "title": "皇家啤酒屋 Hofbräuhaus",
+      "category": "美食",
+      "maps": [
+        {
+          "label": "皇家啤酒屋",
+          "url": "https://www.google.com/maps/place/%E7%9A%87%E5%AE%B6%E5%95%A4%E9%85%92%E5%B1%8B/data=!4m2!3m1!19sChIJxfxSz4t1nkcRLxq9ze1wwak"
+        }
+      ],
+      "links": [
+        {
+          "label": "皇家啤酒屋官網",
+          "url": "https://www.hofbraeuhaus.de/en/",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "晚餐",
+          "eur": 96,
+          "twd": 3422
+        }
+      ]
+    },
+    {
+      "id": "d10-stay",
+      "date": "2025-10-12",
+      "time": "住宿",
+      "title": "拜爾公寓式酒店（慕尼黑，第 2 晚）",
+      "category": "住宿",
+      "desc": "同 Day 9 住宿，房費已算在前一晚。",
+      "booking": "https://www.booking.com/Share-2CJ0Ek"
+    },
+    {
+      "id": "d11-breakfast",
+      "date": "2025-10-13",
+      "time": "早上",
+      "title": "慕尼黑早餐麵包",
+      "category": "美食",
+      "costs": [
+        {
+          "label": "麵包",
+          "eur": 17
+        }
+      ]
+    },
+    {
+      "id": "d11-depart",
+      "date": "2025-10-13",
+      "time": "08:30",
+      "title": "退房 + 出發",
+      "category": "交通"
+    },
+    {
+      "id": "d11-return",
+      "date": "2025-10-13",
+      "time": "09:00–10:00",
+      "title": "到慕尼黑機場 + 加油還車",
+      "category": "交通",
+      "drive": "30min / 34km",
+      "costs": [
+        {
+          "label": "還車前加油",
+          "eur": 72.43,
+          "twd": 2582
+        },
+        {
+          "label": "機場買水",
+          "eur": 5
+        }
+      ]
+    },
+    {
+      "id": "d11-flight",
+      "date": "2025-10-13",
+      "time": "13:55",
+      "title": "搭飛機回台灣",
+      "category": "交通",
+      "details": [
+        "10/13 MUC 13:55 → HKG 10/14 06:50（10h55min）CX300",
+        "香港停留 1h45min",
+        "10/14 HKG 08:35 → TPE 10:35（2h）CX530"
+      ]
+    },
+    {
+      "id": "d12-arrive",
+      "date": "2025-10-14",
+      "time": "10:35",
+      "title": "抵達桃園機場，賦歸！",
+      "category": "交通"
+    },
+    {
+      "id": "t-halffare",
+      "date": null,
+      "time": "",
+      "title": "瑞士半價卡（Half Fare Card）",
+      "category": "票卷",
+      "desc": "瑞士的火車、纜車、登山鐵路大多打 5 折，一個月有效。在 KKday 買。",
+      "costs": [
+        {
+          "label": "半價卡（5 張）",
+          "twd": 22655
+        }
+      ],
+      "tips": [
+        "可以先算一下在瑞士要玩的行程，看買半價卡有沒有比較划算",
+        "要上少女峰頂的話可以直接買",
+        "這次用到的：Täsch 接駁火車、戈爾內格拉特、Sunnegga、First、Eiger Express"
+      ]
+    },
+    {
+      "id": "t-vignette",
+      "date": null,
+      "time": "",
+      "title": "瑞士高速公路通行證（Vignette）",
+      "category": "票卷",
+      "desc": "在瑞士開高速公路一定要有，可以買電子版綁車牌。",
+      "links": [
+        {
+          "label": "官方電子通行證 e-vignette",
+          "url": "https://www.via.admin.ch/shop/dashboard",
+          "added": true
+        }
+      ],
+      "costs": [
+        {
+          "label": "通行證（一台車，規劃時的價格）",
+          "chf": 40,
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "id": "t-esim",
+      "date": null,
+      "time": "",
+      "title": "eSIM 網卡（15 天 26G）",
+      "category": "票卷",
+      "costs": [
+        {
+          "label": "網卡",
+          "twd": 3085
+        }
+      ],
+      "desc": "在蝦皮買的。"
+    }
+  ],
+  "skipped": [
+    {
+      "title": "史特拉斯堡（法國）",
+      "date": "2025-10-05",
+      "reason": "沒時間所以沒去，要去的話建議在這裡多住一天。順路的排法是：史特拉斯堡 → 科爾瑪。",
+      "maps": [
+        {
+          "label": "位置",
+          "url": "https://maps.app.goo.gl/4TC1yjdi16CJ7WcQA"
+        },
+        {
+          "label": "老佛爺百貨（週日沒開）",
+          "url": "https://maps.app.goo.gl/Wmc6ktwKtRNpkJyA6"
+        },
+        {
+          "label": "伊爾河畔小法國區",
+          "url": "https://maps.app.goo.gl/nb1ZggH3W2CgH1dJ6"
+        },
+        {
+          "label": "歷史酒窖",
+          "url": "https://maps.app.goo.gl/QztWaoZ5n3wmVkdPA"
+        }
+      ]
+    },
+    {
+      "title": "瓦爾哈拉神殿",
+      "date": "2025-10-04",
+      "reason": "門票 €4.5",
+      "maps": [
+        {
+          "label": "瓦爾哈拉神殿",
+          "url": "https://www.google.com/maps/place/%E7%93%A6%E7%88%BE%E5%93%88%E6%8B%89%E7%A5%9E%E6%AE%BF/data=!4m2!3m1!19sChIJOdROHpjCn0cRtIsT4FO09zA"
+        }
+      ]
+    },
+    {
+      "title": "紐倫堡",
+      "date": "2025-10-04",
+      "maps": [
+        {
+          "label": "紐倫堡城堡",
+          "url": "https://www.google.com/maps/place/%E7%B4%90%E5%80%AB%E5%A0%A1%E5%9F%8E%E5%A0%A1/data=!4m2!3m1!19sChIJB5JKSLBXn0cRm5zy7D3jUgo"
+        }
+      ]
+    },
+    {
+      "title": "海德堡",
+      "date": "2025-10-05",
+      "maps": [
+        {
+          "label": "海德堡城堡",
+          "url": "https://www.google.com/maps/place/%E6%B5%B7%E5%BE%B7%E5%A0%A1%E5%9F%8E%E5%A0%A1/data=!4m2!3m1!19sChIJk9tDygDBl0cR6n7pSTYuZ20"
+        }
+      ]
+    },
+    {
+      "title": "伯恩（瑞士首都）",
+      "date": "2025-10-06",
+      "maps": [
+        {
+          "label": "伯恩老城區",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bern+Altstadt"
+        },
+        {
+          "label": "伯恩鐘樓 Zytglogge",
+          "url": "https://www.google.com/maps/search/?api=1&query=Zytglogge+Bern"
+        }
+      ]
+    },
+    {
+      "title": "策馬特冰川世界（換杯子）& 夜景觀景台",
+      "date": "2025-10-06",
+      "maps": [
+        {
+          "label": "冰川世界 Matterhorn Glacier Paradise",
+          "url": "https://www.google.com/maps/search/?api=1&query=Matterhorn+Glacier+Paradise"
+        },
+        {
+          "label": "Zermatt Matterhorn Viewpoint",
+          "url": "https://www.google.com/maps/place/Zermatt+Matterhorn+Viewpoint/data=!4m2!3m1!19sChIJy7iTXPA3j0cRlYtf2dg14OA"
+        }
+      ]
+    },
+    {
+      "title": "土撥鼠小徑 + 五湖健行",
+      "date": "2025-10-07",
+      "reason": "Sunnegga → Blauherd 纜車沒開，改成只看 Leisee。",
+      "links": [
+        {
+          "label": "五湖健行介紹文章",
+          "url": "https://www.leo-travel.idv.tw/60295/swiss-zermatt-matterhorn-5-seenweg-murmelweg"
+        }
+      ],
+      "maps": [
+        {
+          "label": "五湖健行起點 Blauherd",
+          "url": "https://www.google.com/maps/search/?api=1&query=Blauherd+Zermatt"
+        },
+        {
+          "label": "Stellisee",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stellisee+Zermatt"
+        }
+      ]
+    },
+    {
+      "title": "因特拉肯 Harder Kulm 觀景台列車",
+      "date": "2025-10-07",
+      "reason": "半價 CHF 17。車站旁邊有個免費的動物園。",
+      "maps": [
+        {
+          "label": "Harderbahn",
+          "url": "https://www.google.com/maps/place/Harderbahn/data=!4m2!3m1!19sChIJ_U8GH6Ckj0cRcsSH9pirb4c"
+        }
+      ]
+    },
+    {
+      "title": "皮拉圖斯鐵路",
+      "date": "2025-10-09",
+      "maps": [
+        {
+          "label": "皮拉圖斯鐵路",
+          "url": "https://www.google.com/maps/place/%E7%9A%AE%E6%8B%89%E5%9C%96%E6%96%AF%E9%90%B5%E8%B7%AF/data=!4m2!3m1!19sChIJs3DXSP7wj0cRRATSlO4IKac"
+        }
+      ]
+    },
+    {
+      "title": "蘇黎世老城區、蘇黎世理工、Zum Königstuhl 起司鍋",
+      "date": "2025-10-09",
+      "reason": "起司鍋改在琉森吃。",
+      "maps": [
+        {
+          "label": "Zum Königstuhl",
+          "url": "https://www.google.com/maps/place/Zum+K%C3%B6nigstuhl+-+Schweizer+Restaurant+in+Z%C3%BCrich+Niederdorf/data=!4m2!3m1!19sChIJrYEEnTWhmkcRi2tZ62J1Imw"
+        },
+        {
+          "label": "蘇黎世聯邦理工學院",
+          "url": "https://www.google.com/maps/place/%E8%98%87%E9%BB%8E%E4%B8%96%E8%81%AF%E9%82%A6%E7%90%86%E5%B7%A5%E5%AD%B8%E9%99%A2/data=!4m2!3m1!19sChIJ94xuUaagmkcRB3Y3tij0YUs"
+        }
+      ]
+    },
+    {
+      "title": "萊茵瀑布",
+      "date": "2025-10-10",
+      "maps": [
+        {
+          "label": "萊茵瀑布石頭觀景台",
+          "url": "https://www.google.com/maps/place/%E8%90%8A%E8%8C%B5%E7%80%91%E5%B8%83%E7%9F%B3%E9%A0%AD%E8%A7%80%E6%99%AF%E5%8F%B0/data=!4m2!3m1!19sChIJg2gTSEt_kEcRUzEiq85TVJM"
+        }
+      ]
+    },
+    {
+      "title": "阿爾卑斯湖、菲森小鎮",
+      "date": "2025-10-10",
+      "maps": [
+        {
+          "label": "阿爾卑斯湖 Alpsee",
+          "url": "https://www.google.com/maps/search/?api=1&query=Alpsee+Schwangau"
+        },
+        {
+          "label": "菲森老城區",
+          "url": "https://www.google.com/maps/search/?api=1&query=F%C3%BCssen+Altstadt"
+        }
+      ]
+    },
+    {
+      "title": "鷹巢",
+      "date": "2025-10-11",
+      "maps": [
+        {
+          "label": "鷹巢",
+          "url": "https://www.google.com/maps/place/%E9%B7%B9%E5%B7%A2/data=!4m2!3m1!19sChIJhZGDoGnrdkcRq7AFut_XDu4"
+        }
+      ]
+    },
+    {
+      "title": "Ingolstadt Village Outlet",
+      "date": "2025-10-12",
+      "reason": "週日 outlet 不開。",
+      "maps": [
+        {
+          "label": "Ingolstadt Village",
+          "url": "https://www.google.com/maps/place/Ingolstadt+Village/data=!4m2!3m1!19sChIJVydjc-X_nkcRQqGLQ11-FlA"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "note": "以 Notion「總計金額」為準，歐元匯率以 2025/10/14 的 35.57 計算。",
+    "rows": [
+      {
+        "category": "機票",
+        "perPerson": 29291,
+        "total": 146455
+      },
+      {
+        "category": "住宿",
+        "perPerson": 15961,
+        "total": 79807
+      },
+      {
+        "category": "門票/車票",
+        "perPerson": 16903,
+        "total": 84513
+      },
+      {
+        "category": "租車",
+        "perPerson": 10533,
+        "total": 52664
+      },
+      {
+        "category": "吃飯",
+        "perPerson": 8406,
+        "total": 42032
+      },
+      {
+        "category": "油錢",
+        "perPerson": 1943,
+        "total": 9713
+      },
+      {
+        "category": "網卡",
+        "perPerson": 617,
+        "total": 3085
+      },
+      {
+        "category": "停車",
+        "perPerson": 448,
+        "total": 2241
+      }
+    ],
+    "perPerson": 84102,
+    "total": 420510
+  },
+  "notes": [
+    {
+      "title": "出發前",
+      "icon": "🧳",
+      "items": [
+        "機票：國泰航空，5 月初旅展第一個禮拜訂（學生有學生方案）",
+        "瑞士半價卡 vs 瑞士通行證：先算一下在瑞士要玩的行程，看哪個划算；要上少女峰頂可以直接買半價卡",
+        "瑞士高速公路要買通行證（Vignette），可以買電子版",
+        "2025/10 當時奧地利不承認台灣駕照，路線要避開奧地利（2025/11 起已開放）"
+      ]
+    },
+    {
+      "title": "租車 & 開車",
+      "icon": "🚗",
+      "items": [
+        "租車櫃檯會先開很高的價，一定要有耐心跟他喊價（Sixt 會）",
+        "點到點都很遠，行程不要排太滿",
+        "策馬特不能開車進去，車要停在特施（Täsch），Alpine Parking 比較便宜",
+        "勒奇山隧道汽車火車：最左邊是線上預約車道，沒買票的開中間車道現場買；約半小時一班，車上要熄火拉手煞車",
+        "國王湖導航：PIDING OUTLETS → Bad Reichenhall → 國王湖遊客中心"
+      ]
+    },
+    {
+      "title": "營業時間",
+      "icon": "🕖",
+      "items": [
+        "禮拜日百貨公司、outlet、大超市和大部分店面都不開，但大部分餐廳有開",
+        "店都很早關，要注意看時間",
+        "科爾瑪傳統市場：週六開到 18:00、週日開到 14:00、週一不開",
+        "Sunnegga 纜車 8:30–17:20；First 首班 8:00；Eiger Express 首班 7:46"
+      ]
+    },
+    {
+      "title": "省錢秘訣",
+      "icon": "💰",
+      "items": [
+        "刷卡很方便，可以直接用有回饋的卡刷",
+        "去超市買東西自己煮會省很多"
+      ]
+    },
+    {
+      "title": "看風景小撇步",
+      "icon": "📸",
+      "items": [
+        "戈爾內格拉特登山火車：上山坐右邊才看得到馬特洪峰",
+        "國王湖遊船：去程坐右側、回程坐左側",
+        "馬特洪峰黃金日出：10/7 日出 7:36，提早 30 分鐘到"
+      ]
+    },
+    {
+      "title": "推薦 App",
+      "icon": "📱",
+      "items": [
+        "Waze：導航",
+        "Parkingpay：瑞士停車繳費"
+      ]
+    }
+  ]
+}
