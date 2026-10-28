@@ -1,5 +1,5 @@
 // 行程資料 + 共用的小工具（分類顏色、金額換算、日期格式）
-import data from '~/data/trip.json'
+import { TRIPS } from '~/data/trips'
 
 export interface Link { label: string; url: string; added?: boolean }
 export interface Cost {
@@ -58,7 +58,18 @@ export function money(n: number, digits = 0) {
   return n.toLocaleString('zh-TW', { minimumFractionDigits: digits, maximumFractionDigits: digits })
 }
 
+// 目前網址是哪一趟旅行（/2025muc-swiss/... → 2025muc-swiss），不在 /<代號>/ 底下就是空字串
+export function useTripSlug() {
+  const route = useRoute()
+  return String(route.params.trip ?? '')
+}
+
 export function useTrip() {
+  const slug = useTripSlug()
+  const data = TRIPS[slug]
+  if (!data) throw createError({ statusCode: 404, statusMessage: '找不到這趟旅行', fatal: true })
+  // 站內連結都要加上旅行代號：to(`/item/${id}`) → /2025muc-swiss/item/xxx
+  const to = (path = '') => `/${slug}${path}`
   const trip = data.trip
   const items = data.items as Item[]
   const days = data.days
@@ -85,5 +96,5 @@ export function useTrip() {
     return items.find(i => i.date === date && i.category === '住宿' && i.booking)
   }
 
-  return { trip, items, days, skipped: data.skipped, budget: data.budget, notes: data.notes, costTwd, foreign, itemsOfDay, stayOfDay }
+  return { slug, to, trip, items, days, skipped: data.skipped, budget: data.budget, notes: data.notes, costTwd, foreign, itemsOfDay, stayOfDay }
 }

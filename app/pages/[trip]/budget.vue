@@ -21,7 +21,7 @@ const ring = computed(() => {
   }).join(', ')
 })
 
-useHead({ title: '總花費 | 德瑞自駕手冊' })
+useHead({ title: `總花費 | ${trip.title}` })
 </script>
 
 <template>

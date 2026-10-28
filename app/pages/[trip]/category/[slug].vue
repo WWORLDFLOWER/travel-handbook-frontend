@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
-const { items, days } = useTrip()
+const { to, trip, items, days } = useTrip()
 
 const cat = computed(() => CATEGORIES.find(c => c.slug === route.params.slug))
 if (!cat.value) throw createError({ statusCode: 404, statusMessage: '找不到這個分類' })
@@ -8,7 +8,7 @@ if (!cat.value) throw createError({ statusCode: 404, statusMessage: '找不到�
 const list = computed(() => items.filter(i => i.category === cat.value!.name))
 const dayNo = (date: string | null) => days.find(d => d.date === date)?.no
 
-useHead({ title: () => `${cat.value?.name} | 德瑞自駕手冊` })
+useHead({ title: () => `${cat.value?.name} | ${trip.title}` })
 </script>
 
 <template>
@@ -17,7 +17,7 @@ useHead({ title: () => `${cat.value?.name} | 德瑞自駕手冊` })
 
     <div class="tabs">
       <NuxtLink
-        v-for="c in CATEGORIES" :key="c.slug" :to="`/category/${c.slug}`"
+        v-for="c in CATEGORIES" :key="c.slug" :to="to(`/category/${c.slug}`)"
         :style="{ '--tc': c.color, '--ts': c.soft }" :class="{ on: c.slug === cat.slug }"
       >
         <span class="ic">{{ c.icon }}</span>
@@ -27,7 +27,7 @@ useHead({ title: () => `${cat.value?.name} | 德瑞自駕手冊` })
     </div>
 
     <div class="list">
-      <NuxtLink v-for="it in list" :key="it.id" :to="`/item/${it.id}`" class="card entry">
+      <NuxtLink v-for="it in list" :key="it.id" :to="to(`/item/${it.id}`)" class="card entry">
         <div class="when">
           <template v-if="it.date">
             <b>Day {{ dayNo(it.date) }}</b>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const { notes } = useTrip()
+const { trip, notes } = useTrip()
 const COLORS = ['#e87a8a', '#5a84c9', '#e3a457', '#3f9a7e', '#9273bf', '#e07a4f']
-useHead({ title: '注意事項 | 德瑞自駕手冊' })
+useHead({ title: `注意事項 | ${trip.title}` })
 </script>
 
 <template>

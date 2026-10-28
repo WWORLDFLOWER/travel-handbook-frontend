@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
-const { trip, items, days, costTwd, foreign } = useTrip()
+const { to, trip, items, days, costTwd, foreign } = useTrip()
 
 const index = computed(() => items.findIndex(i => i.id === route.params.id))
 const item = computed(() => items[index.value])
@@ -24,7 +24,7 @@ useHead({ title: () => `${item.value?.title} | ${trip.title}` })
   <div v-if="item" class="page" :style="{ '--c': cat.color, '--soft': cat.soft }">
     <section class="head">
       <div class="wrap">
-        <NuxtLink to="/" class="back">‹ 回行程總表</NuxtLink>
+        <NuxtLink :to="to('/')" class="back">‹ 回行程總表</NuxtLink>
         <div class="meta">
           <CategoryChip :name="item.category" solid />
           <span v-if="day">Day {{ day.no }}・{{ fmtDate(item.date!) }}</span>
@@ -113,9 +113,9 @@ useHead({ title: () => `${item.value?.title} | ${trip.title}` })
     </div>
 
     <nav class="wrap pager">
-      <NuxtLink v-if="prev" :to="`/item/${prev.id}`" class="card">‹ <span>{{ prev.title }}</span></NuxtLink>
+      <NuxtLink v-if="prev" :to="to(`/item/${prev.id}`)" class="card">‹ <span>{{ prev.title }}</span></NuxtLink>
       <span v-else />
-      <NuxtLink v-if="next" :to="`/item/${next.id}`" class="card right"><span>{{ next.title }}</span> ›</NuxtLink>
+      <NuxtLink v-if="next" :to="to(`/item/${next.id}`)" class="card right"><span>{{ next.title }}</span> ›</NuxtLink>
     </nav>
   </div>
 </template>
