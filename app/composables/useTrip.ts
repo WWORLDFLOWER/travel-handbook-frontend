@@ -58,7 +58,7 @@ export function money(n: number, digits = 0) {
   return n.toLocaleString('zh-TW', { minimumFractionDigits: digits, maximumFractionDigits: digits })
 }
 
-// 目前網址是哪一趟旅行（/2025muc-swiss/... → 2025muc-swiss），不在 /<代號>/ 底下就是空字串
+// 目前網址是哪一趟旅行（/2025-muc-swiss/... → 2025-muc-swiss），不在 /<代號>/ 底下就是空字串
 export function useTripSlug() {
   const route = useRoute()
   return String(route.params.trip ?? '')
@@ -68,7 +68,7 @@ export function useTrip() {
   const slug = useTripSlug()
   const data = TRIPS[slug]
   if (!data) throw createError({ statusCode: 404, statusMessage: '找不到這趟旅行', fatal: true })
-  // 站內連結都要加上旅行代號：to(`/item/${id}`) → /2025muc-swiss/item/xxx
+  // 站內連結都要加上旅行代號：to(`/item/${id}`) → /2025-muc-swiss/item/xxx
   const to = (path = '') => `/${slug}${path}`
   const trip = data.trip
   const items = data.items as Item[]

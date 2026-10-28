@@ -2,7 +2,7 @@
 import { TRIPS } from '~/data/trips'
 
 const route = useRoute()
-// 在某一趟旅行裡（/2025muc-swiss/...）才顯示那趟的選單；首頁只顯示旅行列表
+// 在某一趟旅行裡（/2025-muc-swiss/...）才顯示那趟的選單；首頁只顯示旅行列表
 const slug = computed(() => String(route.params.trip ?? ''))
 const trip = computed(() => TRIPS[slug.value]?.trip)
 const nav = computed(() => [
