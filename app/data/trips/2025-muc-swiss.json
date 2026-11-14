@@ -1920,5 +1920,431 @@
         "Parkingpay：瑞士停車繳費"
       ]
     }
-  ]
+  ],
+  "map": {
+    "stops": [
+      {
+        "id": "muc",
+        "name": "慕尼黑機場",
+        "lat": 48.35396,
+        "lng": 11.77859,
+        "item": "d2-arrive",
+        "day": 2
+      },
+      {
+        "id": "wiesn",
+        "name": "慕尼黑啤酒節",
+        "lat": 48.13567,
+        "lng": 11.55223,
+        "item": "d2-oktoberfest",
+        "day": 2
+      },
+      {
+        "id": "rothenburg",
+        "name": "羅騰堡",
+        "lat": 49.3772,
+        "lng": 10.1787,
+        "item": "d2-rothenburg",
+        "day": 2
+      },
+      {
+        "id": "colmar",
+        "name": "科爾瑪",
+        "lat": 48.07775,
+        "lng": 7.35796,
+        "item": "d3-colmar",
+        "day": 3
+      },
+      {
+        "id": "kandersteg",
+        "name": "汽車火車 Kandersteg",
+        "lat": 46.4958,
+        "lng": 7.6735,
+        "item": "d4-carTrain",
+        "day": 4
+      },
+      {
+        "id": "goppenstein",
+        "name": "汽車火車 Goppenstein",
+        "lat": 46.36814,
+        "lng": 7.75443,
+        "item": "d4-carTrain",
+        "day": 4
+      },
+      {
+        "id": "taesch",
+        "name": "Täsch 停車",
+        "lat": 46.06894,
+        "lng": 7.7753,
+        "item": "d4-taesch",
+        "day": 4
+      },
+      {
+        "id": "zermatt",
+        "name": "策馬特",
+        "lat": 46.02457,
+        "lng": 7.74813,
+        "item": "d4-stay",
+        "day": 4
+      },
+      {
+        "id": "gornergrat",
+        "name": "戈爾內格拉特",
+        "lat": 45.98334,
+        "lng": 7.78499,
+        "item": "d4-gornergrat",
+        "day": 4
+      },
+      {
+        "id": "leisee",
+        "name": "Leisee 倒影",
+        "lat": 46.01497,
+        "lng": 7.77268,
+        "item": "d5-sunnegga",
+        "day": 5
+      },
+      {
+        "id": "interlaken",
+        "name": "因特拉肯",
+        "lat": 46.67988,
+        "lng": 7.86863,
+        "item": "d5-stay",
+        "day": 5
+      },
+      {
+        "id": "firstbahn",
+        "name": "格林德瓦 First 纜車站",
+        "lat": 46.62416,
+        "lng": 8.04224,
+        "item": "d6-first",
+        "day": 6
+      },
+      {
+        "id": "first",
+        "name": "First 山頂",
+        "lat": 46.6598,
+        "lng": 8.0548,
+        "item": "d6-first",
+        "day": 6
+      },
+      {
+        "id": "iseltwald",
+        "name": "布里恩茲湖",
+        "lat": 46.71046,
+        "lng": 7.96346,
+        "item": "d6-brienz",
+        "day": 6
+      },
+      {
+        "id": "grindelwald",
+        "name": "Grindelwald Terminal",
+        "lat": 46.62456,
+        "lng": 8.0193,
+        "item": "d7-jungfrau",
+        "day": 7
+      },
+      {
+        "id": "jungfraujoch",
+        "name": "少女峰",
+        "lat": 46.54758,
+        "lng": 7.97897,
+        "item": "d7-jungfrau",
+        "day": 7
+      },
+      {
+        "id": "luzern",
+        "name": "琉森",
+        "lat": 47.05183,
+        "lng": 8.30771,
+        "item": "d7-lucerne",
+        "day": 7
+      },
+      {
+        "id": "zurich",
+        "name": "蘇黎世",
+        "lat": 47.33877,
+        "lng": 8.52056,
+        "item": "d7-stay",
+        "day": 7
+      },
+      {
+        "id": "konstanz",
+        "name": "康士坦茲渡輪",
+        "lat": 47.68228,
+        "lng": 9.21167,
+        "item": "d8-ferry",
+        "day": 8
+      },
+      {
+        "id": "meersburg",
+        "name": "Meersburg",
+        "lat": 47.69468,
+        "lng": 9.26578,
+        "item": "d8-ferry",
+        "day": 8
+      },
+      {
+        "id": "eriskirch",
+        "name": "Kaufland 埃里斯科什",
+        "lat": 47.63321,
+        "lng": 9.52398,
+        "item": "d8-lunch",
+        "day": 8
+      },
+      {
+        "id": "neuschwanstein",
+        "name": "新天鵝堡",
+        "lat": 47.55755,
+        "lng": 10.7497,
+        "item": "d8-neuschwanstein",
+        "day": 8
+      },
+      {
+        "id": "lamm",
+        "name": "Hotel Zum Lamm",
+        "lat": 47.49237,
+        "lng": 11.09628,
+        "item": "d8-stay",
+        "day": 8
+      },
+      {
+        "id": "koenigssee",
+        "name": "國王湖",
+        "lat": 47.5922,
+        "lng": 12.987,
+        "item": "d9-koenigssee",
+        "day": 9
+      },
+      {
+        "id": "saltmine",
+        "name": "巴伐利亞鹽礦",
+        "lat": 47.63769,
+        "lng": 13.01775,
+        "item": "d9-saltmine",
+        "day": 9
+      },
+      {
+        "id": "munich",
+        "name": "慕尼黑市區",
+        "lat": 48.13714,
+        "lng": 11.5754,
+        "item": "d10-oldtown",
+        "day": 9
+      }
+    ],
+    "legs": [
+      {
+        "from": "muc",
+        "to": "wiesn",
+        "mode": "car",
+        "day": 2
+      },
+      {
+        "from": "wiesn",
+        "to": "rothenburg",
+        "mode": "car",
+        "day": 2
+      },
+      {
+        "from": "rothenburg",
+        "to": "colmar",
+        "mode": "car",
+        "day": 3
+      },
+      {
+        "from": "colmar",
+        "to": "kandersteg",
+        "mode": "car",
+        "day": 4
+      },
+      {
+        "from": "kandersteg",
+        "to": "goppenstein",
+        "mode": "carTrain",
+        "day": 4
+      },
+      {
+        "from": "goppenstein",
+        "to": "taesch",
+        "mode": "car",
+        "day": 4
+      },
+      {
+        "from": "taesch",
+        "to": "zermatt",
+        "mode": "train",
+        "day": 4
+      },
+      {
+        "from": "zermatt",
+        "to": "gornergrat",
+        "mode": "train",
+        "day": 4
+      },
+      {
+        "from": "zermatt",
+        "to": "leisee",
+        "mode": "train",
+        "day": 5
+      },
+      {
+        "from": "zermatt",
+        "to": "taesch",
+        "mode": "train",
+        "day": 5
+      },
+      {
+        "from": "taesch",
+        "to": "goppenstein",
+        "mode": "car",
+        "day": 5
+      },
+      {
+        "from": "goppenstein",
+        "to": "kandersteg",
+        "mode": "carTrain",
+        "day": 5
+      },
+      {
+        "from": "kandersteg",
+        "to": "interlaken",
+        "mode": "car",
+        "day": 5
+      },
+      {
+        "from": "interlaken",
+        "to": "firstbahn",
+        "mode": "car",
+        "day": 6
+      },
+      {
+        "from": "firstbahn",
+        "to": "first",
+        "mode": "cable",
+        "day": 6
+      },
+      {
+        "from": "firstbahn",
+        "to": "iseltwald",
+        "mode": "car",
+        "day": 6
+      },
+      {
+        "from": "iseltwald",
+        "to": "interlaken",
+        "mode": "car",
+        "day": 6
+      },
+      {
+        "from": "interlaken",
+        "to": "grindelwald",
+        "mode": "car",
+        "day": 7
+      },
+      {
+        "from": "grindelwald",
+        "to": "jungfraujoch",
+        "mode": "train",
+        "day": 7
+      },
+      {
+        "from": "grindelwald",
+        "to": "luzern",
+        "mode": "car",
+        "day": 7
+      },
+      {
+        "from": "luzern",
+        "to": "zurich",
+        "mode": "car",
+        "day": 7
+      },
+      {
+        "from": "zurich",
+        "to": "konstanz",
+        "mode": "car",
+        "day": 8
+      },
+      {
+        "from": "konstanz",
+        "to": "meersburg",
+        "mode": "ferry",
+        "day": 8
+      },
+      {
+        "from": "meersburg",
+        "to": "eriskirch",
+        "mode": "car",
+        "day": 8
+      },
+      {
+        "from": "eriskirch",
+        "to": "neuschwanstein",
+        "mode": "car",
+        "day": 8,
+        "via": [
+          [
+            47.7266,
+            10.3139
+          ]
+        ]
+      },
+      {
+        "from": "neuschwanstein",
+        "to": "lamm",
+        "mode": "car",
+        "day": 8,
+        "via": [
+          [
+            47.7008,
+            10.8636
+          ],
+          [
+            47.5978,
+            11.0703
+          ]
+        ]
+      },
+      {
+        "from": "lamm",
+        "to": "koenigssee",
+        "mode": "car",
+        "day": 9,
+        "via": [
+          [
+            47.8605,
+            11.8016
+          ],
+          [
+            47.76482,
+            12.91249
+          ]
+        ]
+      },
+      {
+        "from": "koenigssee",
+        "to": "saltmine",
+        "mode": "car",
+        "day": 9
+      },
+      {
+        "from": "saltmine",
+        "to": "munich",
+        "mode": "car",
+        "day": 9,
+        "via": [
+          [
+            47.76482,
+            12.91249
+          ]
+        ]
+      },
+      {
+        "from": "munich",
+        "to": "muc",
+        "mode": "car",
+        "day": 11
+      }
+    ]
+  }
 }

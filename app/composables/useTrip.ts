@@ -96,5 +96,5 @@ export function useTrip() {
     return items.find(i => i.date === date && i.category === '住宿' && i.booking)
   }
 
-  return { slug, to, trip, items, days, skipped: data.skipped, budget: data.budget, notes: data.notes, costTwd, foreign, itemsOfDay, stayOfDay }
+  return { slug, to, trip, map: data.map, items, days, skipped: data.skipped, budget: data.budget, notes: data.notes, costTwd, foreign, itemsOfDay, stayOfDay }
 }

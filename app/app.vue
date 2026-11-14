@@ -8,6 +8,7 @@ const trip = computed(() => TRIPS[slug.value]?.trip)
 const nav = computed(() => [
   { to: `/${slug.value}`, label: '行程總表', icon: '🗓️' },
   { to: `/${slug.value}/category/spots`, label: '分類', icon: '🏷️', prefix: `/${slug.value}/category` },
+  { to: `/${slug.value}/map`, label: '路線地圖', icon: '🗺️' },
   { to: `/${slug.value}/budget`, label: '總花費', icon: '💰' },
   { to: `/${slug.value}/notes`, label: '注意事項', icon: '📝' },
 ])
