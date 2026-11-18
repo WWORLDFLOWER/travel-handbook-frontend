@@ -172,10 +172,8 @@ const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
 }
 .row:hover { background: #fdeee6; }
 .time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; font-weight: 600; }
-/* 名稱太長不換行，超出的部分顯示「…」（完整名稱點進去看） */
-.what { display: flex; align-items: center; gap: 8px; min-width: 0; }
-.what :deep(.chip) { flex: none; }
-.name { font-weight: 600; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.what { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.name { font-weight: 600; }
 .go { color: #e3b5a6; font-size: 22px; line-height: 1; }
 
 .tickets { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
