@@ -7,7 +7,7 @@ const dayNo = (date: string) => days.find(d => d.date === date)?.no ?? 0
 const extras = [...skipped].sort((a, b) => dayNo(a.date) - dayNo(b.date))
 useScrollToHash()
 const tickets = items.filter(i => !i.date)
-// 住宿（有訂房連結的）一律放在每天最後一項，不標時間
+// 住宿（有訂房連結的）一律放在每天最後一項，時間欄顯示「住宿」
 const isStay = (i: Item) => i.category === '住宿' && !!i.booking
 const rowsOfDay = (date: string) => {
   const list = itemsOfDay(date)
@@ -64,7 +64,7 @@ const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
         <div class="day-body">
           <h3 class="day-title">{{ d.title }}</h3>
           <NuxtLink v-for="it in rowsOfDay(d.date)" :id="`it-${it.id}`" :key="it.id" :to="to(`/item/${it.id}`)" class="row">
-            <span class="time">{{ isStay(it) ? '' : it.time }}</span>
+            <span class="time">{{ isStay(it) ? '住宿' : it.time }}</span>
             <span class="what">
               <CategoryChip :name="it.category" />
               <span class="name">{{ it.title }}</span>
