@@ -1,5 +1,8 @@
 <script setup lang="ts">
 const { to, trip, days, items, budget, skipped, itemsOfDay } = useTrip()
+// 有時間可加入：照第幾天排（同一天保持原本順序）
+const dayNo = (date: string) => days.find(d => d.date === date)?.no ?? 0
+const extras = [...skipped].sort((a, b) => dayNo(a.date) - dayNo(b.date))
 const tickets = items.filter(i => !i.date)
 
 const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
@@ -70,11 +73,11 @@ const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
         </NuxtLink>
       </div>
 
-      <h2 class="section-title">💭 有規劃但沒去成</h2>
-      <p class="muted hint">行程規劃時列的備案，下次可以參考。</p>
+      <h2 class="section-title">💭 有時間可加入</h2>
+      <p class="muted hint">行程規劃時列的備案，可以參考。</p>
       <div class="skipped">
-        <div v-for="s in skipped" :key="s.title" class="card skip">
-          <div class="muted small">{{ fmtDate(s.date) }}</div>
+        <div v-for="s in extras" :key="s.title" class="card skip">
+          <div class="muted small">Day {{ dayNo(s.date) }} {{ fmtDate(s.date) }}</div>
           <b>{{ s.title }}</b>
           <p v-if="s.reason" class="small">{{ s.reason }}</p>
           <div class="skip-links">
