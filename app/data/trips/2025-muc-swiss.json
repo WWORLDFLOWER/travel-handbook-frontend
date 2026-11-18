@@ -1468,16 +1468,12 @@
       ]
     },
     {
-      "title": "策馬特冰川世界（換杯子）& 夜景觀景台",
+      "title": "策馬特冰川世界（換杯子）",
       "date": "2025-10-06",
       "maps": [
         {
           "label": "冰川世界 Matterhorn Glacier Paradise",
           "url": "https://www.google.com/maps/search/?api=1&query=Matterhorn+Glacier+Paradise"
-        },
-        {
-          "label": "Zermatt Matterhorn Viewpoint",
-          "url": "https://www.google.com/maps/place/Zermatt+Matterhorn+Viewpoint/data=!4m2!3m1!19sChIJy7iTXPA3j0cRlYtf2dg14OA"
         }
       ]
     },
@@ -1585,7 +1581,7 @@
     }
   ],
   "budget": {
-    "note": "以 Notion「總計金額」為準，歐元匯率以 2025/10/14 的 35.57 計算。",
+    "note": "歐元匯率以 2025/10/14 的 35.57 計算。",
     "rows": [
       {
         "category": "機票",
