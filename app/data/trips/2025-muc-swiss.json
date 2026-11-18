@@ -310,7 +310,7 @@
       "time": "住宿",
       "title": "Mama with aircon including parking 2 cars（科爾瑪）",
       "category": "住宿",
-      "desc": "含 2 個停車位的民宿。Check-in 17:00 / Check-out 10/6 07:00",
+      "desc": "含 2 個停車位的民宿，走路到附近景點大約 10 分鐘。Check-in 17:00 / Check-out 10/6 07:00",
       "booking": "https://www.booking.com/hotel/fr/le-mama-colmar.zh-tw.html",
       "costs": [
         {
@@ -435,7 +435,7 @@
       "time": "住宿",
       "title": "阿爾夫貝爾酒店 Hotel Alphubel（策馬特）",
       "category": "住宿",
-      "desc": "14:00–15:30 先到飯店放東西。Check-in 13:00 / Check-out 10/7 07:45",
+      "desc": "14:00–15:30 先到飯店放東西。離火車站走路約 5 分鐘，早餐蠻好吃的。Check-in 13:00 / Check-out 10/7 07:45",
       "booking": "https://www.booking.com/hotel/ch/alphubel-zermatt.zh-tw.html",
       "maps": [
         {
@@ -731,7 +731,7 @@
       "time": "住宿",
       "title": "Villa Matten（因特拉肯，2 晚）",
       "category": "住宿",
-      "desc": "Check-in 10/7 19:15 / Check-out 10/9 07:00",
+      "desc": "很漂亮的獨棟小屋（但不是包棟的），附近沒什麼東西。開車到因特拉肯市區 10 分鐘內、到格林德瓦市區約 30 分鐘。Check-in 10/7 19:15 / Check-out 10/9 07:00",
       "booking": "https://www.booking.com/hotel/ch/villa-matten-2-matten-bei-interlaken.zh-tw.html",
       "maps": [
         {
@@ -1082,7 +1082,7 @@
       "title": "Hotel Zum Lamm（加爾米施，新天鵝堡附近）",
       "category": "住宿",
       "drive": "1h10m / 64.7km",
-      "desc": "德國鄉村民宿，樓下有自己的餐廳。Check-in 17:00 / Check-out 10/11 07:00",
+      "desc": "德國鄉村民宿，樓下有自己的餐廳。德國小鎮，幾乎沒看到亞洲人，附近的超市和餐廳價格都很親民。Check-in 17:00 / Check-out 10/11 07:00",
       "booking": "https://www.booking.com/hotel/de/zum-lamm-garmisch-partenkirchen1.zh-tw.html",
       "costs": [
         {
@@ -1210,7 +1210,7 @@
       "title": "拜爾公寓式酒店（慕尼黑，2 晚）",
       "category": "住宿",
       "drive": "鹽礦 → 慕尼黑 2h / 155km",
-      "desc": "Check-in 10/11 19:00 / Check-out 10/13 10:00",
+      "desc": "走到老城區約 10 分鐘，附近路上都有賣吃的，很方便。Check-in 10/11 19:00 / Check-out 10/13 10:00",
       "booking": "https://www.booking.com/hotel/de/bayers-boardinghouse.zh-tw.html",
       "costs": [
         {
