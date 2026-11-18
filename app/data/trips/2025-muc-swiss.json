@@ -1015,31 +1015,6 @@
       ]
     },
     {
-      "id": "d8-lunch",
-      "date": "2025-10-10",
-      "time": "12:30",
-      "title": "Kaufland 超市 & 餐車（埃里斯科什）",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "豬頸漢堡",
-          "eur": 12.6
-        },
-        {
-          "label": "餐車烤雞",
-          "eur": 13.9
-        }
-      ],
-      "desc": "波登湖邊小鎮埃里斯科什的 Kaufland，很大間、有很大的停車場，超市裡還有 Esprit。",
-      "maps": [
-        {
-          "label": "Kaufland Eriskirch",
-          "url": "https://www.google.com/maps/search/?api=1&query=Kaufland+Eriskirch",
-          "added": true
-        }
-      ]
-    },
-    {
       "id": "d8-neuschwanstein",
       "date": "2025-10-10",
       "time": "15:00–18:00",
@@ -1873,14 +1848,6 @@
         "day": 8
       },
       {
-        "id": "eriskirch",
-        "name": "Kaufland 埃里斯科什",
-        "lat": 47.63321,
-        "lng": 9.52398,
-        "item": "d8-lunch",
-        "day": 8
-      },
-      {
         "id": "neuschwanstein",
         "name": "新天鵝堡",
         "lat": 47.55755,
@@ -2062,16 +2029,14 @@
       },
       {
         "from": "meersburg",
-        "to": "eriskirch",
-        "mode": "car",
-        "day": 8
-      },
-      {
-        "from": "eriskirch",
         "to": "neuschwanstein",
         "mode": "car",
         "day": 8,
         "via": [
+          [
+            47.63321,
+            9.52398
+          ],
           [
             47.7266,
             10.3139
