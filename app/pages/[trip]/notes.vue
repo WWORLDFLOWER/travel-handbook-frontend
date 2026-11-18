@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { trip, notes } = useTrip()
+const { trip, notes, to } = useTrip()
+// 注意事項一點可以是文字，或是連到細節頁的連結 { links: [{ label, item }] }
+type NoteItem = string | { links: { label: string; item: string }[] }
 const COLORS = ['#e87a8a', '#5a84c9', '#e3a457', '#3f9a7e', '#9273bf', '#e07a4f']
 useHead({ title: `注意事項 | ${trip.title}` })
 </script>
@@ -11,7 +13,12 @@ useHead({ title: `注意事項 | ${trip.title}` })
       <section v-for="(n, i) in notes" :key="n.title" class="card note" :style="{ '--c': COLORS[i % COLORS.length] }">
         <h2><span class="icon">{{ n.icon }}</span>{{ n.title }}</h2>
         <ul>
-          <li v-for="t in n.items" :key="t">{{ t }}</li>
+          <li v-for="(t, j) in (n.items as NoteItem[])" :key="j">
+            <template v-if="typeof t === 'string'">{{ t }}</template>
+            <template v-else>
+              <template v-for="(l, k) in t.links" :key="l.item"><template v-if="k">、</template><NuxtLink :to="to(`/item/${l.item}`)" class="item-link">{{ l.label }} ›</NuxtLink></template>
+            </template>
+          </li>
         </ul>
       </section>
     </div>
@@ -27,4 +34,5 @@ h2 { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; font-size:
   background: color-mix(in srgb, var(--c) 15%, #fff); font-size: 22px;
 }
 ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.item-link { color: var(--c); font-weight: 700; }
 </style>
