@@ -24,7 +24,8 @@ watch(() => mounted.value && router.currentRoute.value.query, (q) => {
   if (d) day.value = d
   if (q.stop) stop.value = String(q.stop)
 }, { immediate: true })
-const routeDays = computed(() => days.filter(d => legs.value.some(l => l.day === d.no)))
+// 有路段或有地點的天才有按鈕（Day 10 整天在慕尼黑市區走路，只有地點）
+const routeDays = computed(() => days.filter(d => legs.value.some(l => l.day === d.no) || map.stops.some(s => s.day === d.no)))
 const shown = computed(() => legs.value.filter(l => day.value == null || l.day === day.value))
 const driveKm = computed(() => shown.value.reduce((s, l) => s + (l.km ?? 0), 0))
 
@@ -58,8 +59,9 @@ useHead({ title: `路線地圖 | ${trip.title}` })
     </div>
 
     <div class="card">
-      <h2>{{ day == null ? '全程路段' : `Day ${day} 路段` }}<span class="muted total">開車約 {{ driveKm }} 公里</span></h2>
-      <ol class="legs">
+      <h2>{{ day == null ? '全程路段' : `Day ${day} 路段` }}<span v-if="shown.length" class="muted total">開車約 {{ driveKm }} 公里</span></h2>
+      <p v-if="!shown.length" class="muted walk">這天沒有開車，在市區走路逛：{{ map.stops.filter(s => s.day === day).map(s => s.name).join('、') }}</p>
+      <ol v-else class="legs">
         <li v-for="(l, i) in shown" :key="i">
           <span class="d">Day {{ l.day }}</span>
           <span class="ft">{{ stopName(l.from) }} → {{ stopName(l.to) }}</span>
@@ -91,6 +93,7 @@ useHead({ title: `路線地圖 | ${trip.title}` })
 
 h2 { margin: 0 0 10px; font-size: 18px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
 .total { font-size: 14px; font-weight: 600; }
+.walk { margin: 0; }
 .legs { margin: 0; padding: 0; list-style: none; display: grid; gap: 2px; }
 .legs li { display: grid; grid-template-columns: 64px 1fr auto; gap: 10px; padding: 8px 4px; border-bottom: 1px dashed var(--line); align-items: baseline; }
 .d { color: #d9536b; font-weight: 800; font-size: 13px; }

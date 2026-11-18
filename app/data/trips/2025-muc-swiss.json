@@ -1876,11 +1876,27 @@
       },
       {
         "id": "munich",
-        "name": "慕尼黑市區",
+        "name": "慕尼黑老城區（瑪麗亞廣場）",
         "lat": 48.13714,
         "lng": 11.5754,
         "item": "d10-oldtown",
-        "day": 9
+        "day": 10
+      },
+      {
+        "id": "residenz",
+        "name": "慕尼黑王宮",
+        "lat": 48.14096,
+        "lng": 11.57802,
+        "item": "d10-residenz",
+        "day": 10
+      },
+      {
+        "id": "hofbraeuhaus",
+        "name": "皇家啤酒屋 Hofbräuhaus",
+        "lat": 48.13764,
+        "lng": 11.57982,
+        "item": "d10-hofbraeuhaus",
+        "day": 10
       }
     ],
     "legs": [

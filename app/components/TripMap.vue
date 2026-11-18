@@ -77,8 +77,10 @@ function focus() {
     parts.forEach((p, i) => p.setStyle({ opacity: on ? (i === 0 && parts.length > 1 ? 0.18 : 0.9) : 0.12 }))
     if (on) pts.push(...leg.path)
   }
-  if (!pts.length) for (const s of props.stops) if (s.day === props.day) pts.push([s.lat, s.lng])
-  if (pts.length) map.fitBounds(pts as LatLngBoundsExpression, { padding: [30, 30], maxZoom: 13 })
+  // 沒有路段的天（市區走路）只看那天的地點，放大到看得到街道
+  const walkOnly = !pts.length
+  if (walkOnly) for (const s of props.stops) if (s.day === props.day) pts.push([s.lat, s.lng])
+  if (pts.length) map.fitBounds(pts as LatLngBoundsExpression, { padding: [40, 40], maxZoom: walkOnly ? 16 : 13 })
 }
 
 // 要打開的地點（從細節頁回來時）：地圖還沒建好就先記著，建好或選好那天之後才打開，只打開一次
