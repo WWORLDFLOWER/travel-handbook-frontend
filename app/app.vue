@@ -31,9 +31,6 @@ const active = (n: { to: string; prefix?: string }) =>
     <main>
       <NuxtPage />
     </main>
-    <footer class="wrap foot muted">
-      <NuxtLink v-if="trip" to="/" class="all">所有旅行</NuxtLink>
-    </footer>
   </div>
 </template>
 
@@ -55,8 +52,7 @@ nav a {
   text-decoration: none; font-weight: 700; font-size: 15px; color: var(--muted);
 }
 nav a.on { background: linear-gradient(90deg, var(--sunset-1), var(--sunset-2)); color: #fff; }
-.foot { padding: 40px 16px 48px; font-size: 13px; text-align: center; }
-.all { color: var(--muted); }
+main { padding-bottom: 56px; }
 
 @media (max-width: 640px) {
   .brand .name { display: none; }

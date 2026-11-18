@@ -156,20 +156,6 @@
       ]
     },
     {
-      "id": "d2-mcd",
-      "date": "2025-10-04",
-      "time": "12:00",
-      "title": "慕尼黑麥當勞",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "午餐",
-          "eur": 34.24,
-          "twd": 1224
-        }
-      ]
-    },
-    {
       "id": "d2-oktoberfest",
       "date": "2025-10-04",
       "time": "13:00–14:30",
@@ -235,19 +221,6 @@
       ]
     },
     {
-      "id": "d2-supermarket",
-      "date": "2025-10-04",
-      "time": "19:00",
-      "title": "羅騰堡超市採買晚餐",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "超市",
-          "eur": 26.97
-        }
-      ]
-    },
-    {
       "id": "d2-stay",
       "date": "2025-10-04",
       "time": "住宿",
@@ -281,16 +254,6 @@
           "label": "羅騰堡老城區",
           "url": "https://maps.app.goo.gl/mUgEyRWMSDkaWSwc9"
         }
-      ],
-      "costs": [
-        {
-          "label": "麵包店",
-          "eur": 10.65
-        },
-        {
-          "label": "麵包店（第二次）",
-          "eur": 7.1
-        }
       ]
     },
     {
@@ -299,13 +262,7 @@
       "time": "10:00",
       "title": "退房 + 出發前往科爾瑪",
       "category": "交通",
-      "drive": "羅騰堡 → 科爾瑪 3h32m / 341km",
-      "costs": [
-        {
-          "label": "路上的麥當勞（午餐）",
-          "eur": 9.5
-        }
-      ]
+      "drive": "羅騰堡 → 科爾瑪 3h32m / 341km"
     },
     {
       "id": "d3-colmar",
@@ -342,19 +299,6 @@
       ],
       "tips": [
         "傳統市場：週六開到 18:00、週日開到 14:00、週一不開"
-      ]
-    },
-    {
-      "id": "d3-supermarket",
-      "date": "2025-10-05",
-      "time": "18:30",
-      "title": "科爾瑪超市",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "超市",
-          "eur": 13.39
-        }
       ]
     },
     {
@@ -701,32 +645,6 @@
       ]
     },
     {
-      "id": "d5-migros",
-      "date": "2025-10-07",
-      "time": "12:30",
-      "title": "策馬特 Migros 超市吃烤雞",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "Migros 超市",
-          "chf": 13.65,
-          "twd": 524
-        },
-        {
-          "label": "喉糖",
-          "chf": 3,
-          "twd": 115
-        }
-      ],
-      "maps": [
-        {
-          "label": "Migros 策馬特",
-          "url": "https://www.google.com/maps/search/?api=1&query=Migros+Zermatt",
-          "added": true
-        }
-      ]
-    },
-    {
       "id": "d5-shuttle",
       "date": "2025-10-07",
       "time": "13:30–14:00",
@@ -783,26 +701,6 @@
         {
           "label": "勞力士（可拿免費勺子）",
           "url": "https://maps.app.goo.gl/fA49a7PLTvLho6Nh8"
-        }
-      ]
-    },
-    {
-      "id": "d5-coop",
-      "date": "2025-10-07",
-      "time": "19:00",
-      "title": "因特拉肯 Coop 超市",
-      "category": "美食",
-      "maps": [
-        {
-          "label": "Coop 超市",
-          "url": "https://maps.app.goo.gl/MV2b7TszVZJ7skKR7"
-        }
-      ],
-      "costs": [
-        {
-          "label": "超市",
-          "chf": 66.6,
-          "twd": 2554
         }
       ]
     },
@@ -926,35 +824,6 @@
       ]
     },
     {
-      "id": "d6-supermarket",
-      "date": "2025-10-08",
-      "time": "19:00",
-      "title": "因特拉肯超市（Migros、Denner）",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "Migros",
-          "chf": 59.8,
-          "twd": 2293
-        },
-        {
-          "label": "Denner",
-          "chf": 4.85,
-          "twd": 186
-        },
-        {
-          "label": "Denner",
-          "chf": 2.95,
-          "twd": 113
-        },
-        {
-          "label": "超市停車",
-          "chf": 1.5,
-          "twd": 58
-        }
-      ]
-    },
-    {
       "id": "d6-stay",
       "date": "2025-10-08",
       "time": "住宿",
@@ -987,6 +856,11 @@
           "label": "少女峰頂 Jungfraujoch",
           "url": "https://www.google.com/maps/search/?api=1&query=Jungfraujoch",
           "added": true
+        },
+        {
+          "label": "山頂的瑞士蓮巧克力店 Lindt Swiss Chocolate Heaven",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lindt+Swiss+Chocolate+Heaven+Jungfraujoch",
+          "added": true
         }
       ],
       "links": [
@@ -1015,21 +889,8 @@
       "tips": [
         "首班 7:46",
         "山頂可以拿登頂護照蓋章",
-        "下山會路過龍疆"
-      ]
-    },
-    {
-      "id": "d7-lindt",
-      "date": "2025-10-09",
-      "time": "11:00",
-      "title": "少女峰頂瑞士蓮",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "瑞士蓮巧克力",
-          "chf": 7.85,
-          "twd": 301
-        }
+        "下山會路過龍疆",
+        "山頂有瑞士蓮巧克力店（Lindt Swiss Chocolate Heaven），可以買巧克力當伴手禮"
       ]
     },
     {
@@ -1160,10 +1021,6 @@
       "title": "Kaufland 超市 & 餐車（埃里斯科什）",
       "category": "美食",
       "costs": [
-        {
-          "label": "Kaufland 超市",
-          "eur": 31.47
-        },
         {
           "label": "豬頸漢堡",
           "eur": 12.6
@@ -1308,6 +1165,10 @@
         {
           "label": "導航中繼點 PIDING OUTLETS",
           "url": "https://www.google.com/maps/place/PIDING+OUTLETS/data=!4m2!3m1!19sChIJcfwy-ZOOdkcRk4zlhtg7r2Q"
+        },
+        {
+          "label": "國王湖鱒魚餐廳（Zum Schiffmeister）",
+          "url": "https://maps.app.goo.gl/am8qZsT1S3M8ERTs8"
         }
       ],
       "links": [
@@ -1323,11 +1184,7 @@
           "eur": 7
         },
         {
-          "label": "路邊大亨堡",
-          "eur": 5
-        },
-        {
-          "label": "國王湖餐廳",
+          "label": "國王湖鱒魚餐廳",
           "eur": 74.07
         }
       ],
@@ -1366,10 +1223,6 @@
         {
           "label": "鹽礦照片",
           "eur": 12
-        },
-        {
-          "label": "鹽礦冰淇淋",
-          "eur": 6
         }
       ]
     },
@@ -1387,37 +1240,6 @@
           "label": "房費 2 晚",
           "eur": 340.2,
           "twd": 12165
-        }
-      ]
-    },
-    {
-      "id": "d9-dinner",
-      "date": "2025-10-11",
-      "time": "20:00",
-      "title": "慕尼黑三明治店（小逛老城區）",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "晚餐",
-          "eur": 21,
-          "twd": 749
-        }
-      ]
-    },
-    {
-      "id": "d10-breakfast",
-      "date": "2025-10-12",
-      "time": "早上",
-      "title": "慕尼黑麵包店 & 早餐咖啡",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "早餐咖啡",
-          "eur": 2
-        },
-        {
-          "label": "麵包店",
-          "eur": 18.5
         }
       ]
     },
@@ -1454,35 +1276,13 @@
       "id": "d10-oldtown",
       "date": "2025-10-12",
       "time": "15:00–",
-      "title": "慕尼黑老城區 + 吃吃喝喝",
+      "title": "慕尼黑老城區",
       "category": "景點",
       "maps": [
         {
           "label": "瑪麗亞廣場 Marienplatz",
           "url": "https://www.google.com/maps/search/?api=1&query=Marienplatz+M%C3%BCnchen",
           "added": true
-        }
-      ],
-      "costs": [
-        {
-          "label": "星巴克",
-          "eur": 10.9
-        },
-        {
-          "label": "冰淇淋",
-          "eur": 6.6
-        },
-        {
-          "label": "冰淇淋（第二次）",
-          "eur": 6.6
-        },
-        {
-          "label": "Five Guys",
-          "eur": 18.5
-        },
-        {
-          "label": "麥當勞",
-          "eur": 7.5
         }
       ]
     },
@@ -1523,19 +1323,6 @@
       "booking": "https://www.booking.com/Share-2CJ0Ek"
     },
     {
-      "id": "d11-breakfast",
-      "date": "2025-10-13",
-      "time": "早上",
-      "title": "慕尼黑早餐麵包",
-      "category": "美食",
-      "costs": [
-        {
-          "label": "麵包",
-          "eur": 17
-        }
-      ]
-    },
-    {
       "id": "d11-depart",
       "date": "2025-10-13",
       "time": "08:30",
@@ -1554,10 +1341,6 @@
           "label": "還車前加油",
           "eur": 72.43,
           "twd": 2582
-        },
-        {
-          "label": "機場買水",
-          "eur": 5
         }
       ]
     },
