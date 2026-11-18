@@ -639,6 +639,15 @@
       ],
       "maps": [
         {
+          "label": "馬特洪峰觀賞點（觀景台）",
+          "url": "https://maps.app.goo.gl/h6Fu6DSMZ1XCFHfb9"
+        },
+        {
+          "label": "最高的麥當勞（策馬特麥當勞）",
+          "url": "https://www.google.com/maps/search/?api=1&query=McDonald%27s+Zermatt",
+          "added": true
+        },
+        {
           "label": "策馬特的勞力士店（可拿免費湯勺）",
           "url": "https://www.google.com/maps/search/?api=1&query=Rolex+Zermatt",
           "added": true
