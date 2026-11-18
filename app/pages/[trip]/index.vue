@@ -1,9 +1,17 @@
 <script setup lang="ts">
+import type { Item } from '~/composables/useTrip'
+
 const { to, trip, days, items, budget, skipped, itemsOfDay } = useTrip()
 // 有時間可加入：照第幾天排（同一天保持原本順序）
 const dayNo = (date: string) => days.find(d => d.date === date)?.no ?? 0
 const extras = [...skipped].sort((a, b) => dayNo(a.date) - dayNo(b.date))
 const tickets = items.filter(i => !i.date)
+// 住宿（有訂房連結的）一律放在每天最後一項，不標時間
+const isStay = (i: Item) => i.category === '住宿' && !!i.booking
+const rowsOfDay = (date: string) => {
+  const list = itemsOfDay(date)
+  return [...list.filter(i => !isStay(i)), ...list.filter(isStay)]
+}
 
 const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
 </script>
@@ -54,8 +62,8 @@ const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
         </div>
         <div class="day-body">
           <h3 class="day-title">{{ d.title }}</h3>
-          <NuxtLink v-for="it in itemsOfDay(d.date)" :key="it.id" :to="to(`/item/${it.id}`)" class="row">
-            <span class="time">{{ it.time }}</span>
+          <NuxtLink v-for="it in rowsOfDay(d.date)" :key="it.id" :to="to(`/item/${it.id}`)" class="row">
+            <span class="time">{{ isStay(it) ? '' : it.time }}</span>
             <span class="what">
               <CategoryChip :name="it.category" />
               <span class="name">{{ it.title }}</span>
