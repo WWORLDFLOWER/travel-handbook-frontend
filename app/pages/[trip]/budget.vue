@@ -53,7 +53,7 @@ useHead({ title: `總花費 | ${trip.title}` })
         </div>
         <div class="nums">
           <b>NT${{ money(r.total) }}</b>
-          <span class="muted">人均 NT${{ money(r.perPerson) }}・{{ pct(r.total).toFixed(1) }}%</span>
+          <span class="muted">人均 NT${{ money(r.perPerson) }} / {{ pct(r.total).toFixed(1) }}%</span>
         </div>
       </div>
 
