@@ -322,6 +322,12 @@
           "label": "城市稅（現金）",
           "eur": 2.75
         }
+      ],
+      "maps": [
+        {
+          "label": "民宿大約位置（以民宿老闆提供的為準）",
+          "url": "https://maps.app.goo.gl/NCqHveNULBQSqKQcA"
+        }
       ]
     },
     {
@@ -1218,6 +1224,12 @@
           "eur": 340.2,
           "twd": 12165
         }
+      ],
+      "maps": [
+        {
+          "label": "拜爾公寓式酒店 Bayer's Boardinghouse",
+          "url": "https://maps.app.goo.gl/XaGBaNo1FRXAJQa27"
+        }
       ]
     },
     {
@@ -1303,7 +1315,13 @@
       "category": "住宿",
       "desc": "同 Day 9 住宿，房費已算在前一晚。",
       "booking": "https://www.booking.com/hotel/de/bayers-boardinghouse.zh-tw.html",
-      "hideInCategory": true
+      "hideInCategory": true,
+      "maps": [
+        {
+          "label": "拜爾公寓式酒店 Bayer's Boardinghouse",
+          "url": "https://maps.app.goo.gl/XaGBaNo1FRXAJQa27"
+        }
+      ]
     },
     {
       "id": "d11-depart",
@@ -1875,12 +1893,12 @@
         "day": 9
       },
       {
-        "id": "munich",
-        "name": "慕尼黑老城區（瑪麗亞廣場）",
-        "lat": 48.13714,
-        "lng": 11.5754,
-        "item": "d10-oldtown",
-        "day": 10
+        "id": "bayers",
+        "name": "拜爾公寓式酒店（慕尼黑住宿）",
+        "lat": 48.13733,
+        "lng": 11.55842,
+        "item": "d9-stay",
+        "day": 9
       },
       {
         "id": "residenz",
@@ -1888,6 +1906,14 @@
         "lat": 48.14096,
         "lng": 11.57802,
         "item": "d10-residenz",
+        "day": 10
+      },
+      {
+        "id": "munich",
+        "name": "慕尼黑老城區（瑪麗亞廣場）",
+        "lat": 48.13714,
+        "lng": 11.5754,
+        "item": "d10-oldtown",
         "day": 10
       },
       {
@@ -2094,7 +2120,7 @@
       },
       {
         "from": "saltmine",
-        "to": "munich",
+        "to": "bayers",
         "mode": "car",
         "day": 9,
         "via": [
@@ -2105,7 +2131,7 @@
         ]
       },
       {
-        "from": "munich",
+        "from": "bayers",
         "to": "muc",
         "mode": "car",
         "day": 11
