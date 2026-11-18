@@ -1,12 +1,12 @@
 <script setup lang="ts">
 // 路線地圖（Leaflet）：只在瀏覽器裡建立，伺服器產生靜態頁時只輸出外框
 import 'leaflet/dist/leaflet.css'
-import type { Map as LeafletMap, Polyline, LatLngBoundsExpression } from 'leaflet'
+import type { Map as LeafletMap, Marker, Polyline, LatLngBoundsExpression } from 'leaflet'
 import type { RouteLeg } from '~/data/trips'
 
 export interface Stop { id: string; name: string; lat: number; lng: number; item: string; day: number }
 
-const props = defineProps<{ stops: Stop[]; legs: RouteLeg[]; day: number | null; linkTo: (path: string) => string }>()
+const props = defineProps<{ stops: Stop[]; legs: RouteLeg[]; day: number | null; focusStop?: string | null; linkTo: (path: string) => string }>()
 
 // 開車：粗實線（外面一圈淡色光暈，像 Google 時間軸）；火車、纜車：虛線；渡輪、汽車火車：點線
 const STYLE: Record<RouteLeg['mode'], { color: string; dash?: string }> = {
@@ -21,6 +21,7 @@ const el = ref<HTMLElement>()
 const config = useRuntimeConfig()
 let map: LeafletMap | undefined
 const lines: { leg: RouteLeg; parts: Polyline[] }[] = []
+const markers = new Map<string, Marker>()
 
 onMounted(async () => {
   const L = (await import('leaflet')).default
@@ -49,12 +50,20 @@ onMounted(async () => {
   const base = config.app.baseURL.replace(/\/$/, '')
   props.stops.forEach((st, i) => {
     const icon = L.divIcon({ className: 'stop-pin', html: `<span>${i + 1}</span>`, iconSize: [24, 24], iconAnchor: [12, 12] })
-    L.marker([st.lat, st.lng], { icon, title: st.name })
-      .bindPopup(`<b>${st.name}</b><br>Day ${st.day}<br><a href="${base}${props.linkTo(`/item/${st.item}/`)}">看細節 →</a>`)
+    // 連結帶上目前選的天和這個地點，細節頁的「回路線地圖」才能回到這裡
+    const href = () => {
+      const q = new URLSearchParams({ from: 'map', stop: st.id })
+      if (props.day != null) q.set('day', String(props.day))
+      return `${base}${props.linkTo(`/item/${st.item}/`)}?${q}`
+    }
+    const m = L.marker([st.lat, st.lng], { icon, title: st.name })
+      .bindPopup(() => `<b>${st.name}</b><br>Day ${st.day}<br><a href="${href()}">看細節 →</a>`)
       .addTo(map!)
+    markers.set(st.id, m)
   })
 
   focus()
+  openStop()
 })
 
 onBeforeUnmount(() => map?.remove())
@@ -72,7 +81,17 @@ function focus() {
   if (pts.length) map.fitBounds(pts as LatLngBoundsExpression, { padding: [30, 30], maxZoom: 13 })
 }
 
-watch(() => props.day, focus)
+// 要打開的地點（從細節頁回來時）：地圖還沒建好就先記著，建好或選好那天之後才打開，只打開一次
+let pendingStop: string | null = null
+function openStop() {
+  const m = pendingStop ? markers.get(pendingStop) : undefined
+  if (!map || !m) return
+  pendingStop = null
+  map.setView(m.getLatLng(), Math.max(map.getZoom(), 10))
+  m.openPopup()
+}
+watch(() => props.focusStop, (s) => { pendingStop = s ?? null; openStop() }, { immediate: true })
+watch(() => props.day, () => { focus(); openStop() })
 </script>
 
 <template>

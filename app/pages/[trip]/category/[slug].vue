@@ -7,6 +7,7 @@ if (!cat.value) throw createError({ statusCode: 404, statusMessage: '找不到�
 
 // 分類頁不列：「退房 + 出發」這類過場、資料裡標 hideInCategory 的（例如連住的第二晚）；行程總表照常顯示
 const listed = items.filter(i => !i.hideInCategory && !/退房|出發/.test(i.title))
+useScrollToHash()
 const list = computed(() => listed.filter(i => i.category === cat.value!.name))
 const dayNo = (date: string | null) => days.find(d => d.date === date)?.no
 
@@ -29,7 +30,7 @@ useHead({ title: () => `${cat.value?.name} | ${trip.title}` })
     </div>
 
     <div class="list">
-      <NuxtLink v-for="it in list" :key="it.id" :to="to(`/item/${it.id}`)" class="card entry">
+      <NuxtLink v-for="it in list" :id="`it-${it.id}`" :key="it.id" :to="{ path: to(`/item/${it.id}`), query: { from: 'category', c: cat.slug } }" class="card entry">
         <div class="when">
           <template v-if="it.date">
             <b>Day {{ dayNo(it.date) }}</b>
@@ -67,7 +68,7 @@ useHead({ title: () => `${cat.value?.name} | ${trip.title}` })
 .n { font-size: 12px; opacity: 0.85; }
 
 .list { display: grid; gap: 12px; }
-.entry { display: grid; grid-template-columns: 130px 1fr; gap: 16px; text-decoration: none; border-left: 6px solid var(--c); }
+.entry { scroll-margin-top: 80px; display: grid; grid-template-columns: 130px 1fr; gap: 16px; text-decoration: none; border-left: 6px solid var(--c); }
 .entry:hover { background: var(--soft); }
 .when { display: flex; flex-direction: column; font-size: 14px; }
 .when b { color: var(--c); font-size: 16px; }

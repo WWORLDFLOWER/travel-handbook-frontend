@@ -17,6 +17,31 @@ const groupCosts = computed(() => costs.value.filter(c => !c.perPerson && !c.fre
 const total = computed(() => groupCosts.value.reduce((s, c) => s + c.value, 0))
 const totalApprox = computed(() => groupCosts.value.some(c => c.approx))
 
+// 從哪裡點進來的：地圖 ?from=map&day=&stop=、分類 ?from=category&c=<slug>，其他 = 行程總表
+// 靜態頁產生時沒有網址參數：等畫面載入後才看參數（避免和預先產生的 HTML 不一致），
+// 而且要跟著 router 的目前網址變（剛載入那一刻參數還沒回來，稍後才有）
+const router = useRouter()
+const mounted = ref(false)
+onMounted(() => { mounted.value = true })
+const from = computed<Record<string, string>>(() => {
+  if (!mounted.value) return {}
+  const q = router.currentRoute.value.query
+  return Object.fromEntries(Object.entries(q).map(([k, v]) => [k, String(v ?? '')]))
+})
+const back = computed(() => {
+  const q = from.value
+  if (q.from === 'map') {
+    const query: Record<string, string> = {}
+    if (q.day) query.day = q.day
+    if (q.stop) query.stop = q.stop
+    return { to: { path: to('/map'), query }, label: '‹ 回路線地圖' }
+  }
+  const c = q.from === 'category' ? CATEGORIES.find(x => x.slug === q.c) : undefined
+  if (c) return { to: { path: to(`/category/${c.slug}`), hash: `#it-${item.value!.id}` }, label: `‹ 回${c.name}分類` }
+  return { to: { path: to('/'), hash: `#it-${item.value!.id}` }, label: '‹ 回行程總表' }
+})
+const pageLink = (id: string) => ({ path: to(`/item/${id}`), query: from.value })
+
 useHead({ title: () => `${item.value?.title} | ${trip.title}` })
 </script>
 
@@ -24,7 +49,7 @@ useHead({ title: () => `${item.value?.title} | ${trip.title}` })
   <div v-if="item" class="page" :style="{ '--c': cat.color, '--soft': cat.soft }">
     <section class="head">
       <div class="wrap">
-        <NuxtLink :to="to('/')" class="back">‹ 回行程總表</NuxtLink>
+        <NuxtLink :to="back.to" class="back">{{ back.label }}</NuxtLink>
         <div class="meta">
           <CategoryChip :name="item.category" solid />
           <span v-if="day">Day {{ day.no }}・{{ fmtDate(item.date!) }}</span>
@@ -113,9 +138,9 @@ useHead({ title: () => `${item.value?.title} | ${trip.title}` })
     </div>
 
     <nav class="wrap pager">
-      <NuxtLink v-if="prev" :to="to(`/item/${prev.id}`)" class="card">‹ <span>{{ prev.title }}</span></NuxtLink>
+      <NuxtLink v-if="prev" :to="pageLink(prev.id)" class="card">‹ <span>{{ prev.title }}</span></NuxtLink>
       <span v-else />
-      <NuxtLink v-if="next" :to="to(`/item/${next.id}`)" class="card right"><span>{{ next.title }}</span> ›</NuxtLink>
+      <NuxtLink v-if="next" :to="pageLink(next.id)" class="card right"><span>{{ next.title }}</span> ›</NuxtLink>
     </nav>
   </div>
 </template>

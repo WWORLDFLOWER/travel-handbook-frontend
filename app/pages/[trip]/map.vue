@@ -12,6 +12,18 @@ const MODE: Record<RouteLeg['mode'], string> = { car: '🚗 開車', train: '�
 
 // 選一天只看那天（null = 全部）
 const day = ref<number | null>(null)
+// 從細節頁按「回路線地圖」回來：?day=4&stop=zermatt → 回到那天、打開那個地點
+const stop = ref<string | null>(null)
+// 跟細節頁一樣：畫面載入後才看參數，而且要等 router 的網址有參數（剛載入時還沒有）
+const router = useRouter()
+const mounted = ref(false)
+onMounted(() => { mounted.value = true })
+watch(() => mounted.value && router.currentRoute.value.query, (q) => {
+  if (!q) return
+  const d = Number(q.day)
+  if (d) day.value = d
+  if (q.stop) stop.value = String(q.stop)
+}, { immediate: true })
 const routeDays = computed(() => days.filter(d => legs.value.some(l => l.day === d.no)))
 const shown = computed(() => legs.value.filter(l => day.value == null || l.day === day.value))
 const driveKm = computed(() => shown.value.reduce((s, l) => s + (l.km ?? 0), 0))
@@ -33,7 +45,7 @@ useHead({ title: `路線地圖 | ${trip.title}` })
     </div>
 
     <ClientOnly>
-      <TripMap :stops="map.stops" :legs="legs" :day="day" :link-to="to" />
+      <TripMap :stops="map.stops" :legs="legs" :day="day" :focus-stop="stop" :link-to="to" />
       <template #fallback><div class="map-fallback">地圖載入中…</div></template>
     </ClientOnly>
 

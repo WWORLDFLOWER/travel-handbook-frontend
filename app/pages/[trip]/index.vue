@@ -5,6 +5,7 @@ const { to, trip, days, items, budget, skipped, itemsOfDay } = useTrip()
 // 有時間可加入：照第幾天排（同一天保持原本順序）
 const dayNo = (date: string) => days.find(d => d.date === date)?.no ?? 0
 const extras = [...skipped].sort((a, b) => dayNo(a.date) - dayNo(b.date))
+useScrollToHash()
 const tickets = items.filter(i => !i.date)
 // 住宿（有訂房連結的）一律放在每天最後一項，不標時間
 const isStay = (i: Item) => i.category === '住宿' && !!i.booking
@@ -62,7 +63,7 @@ const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
         </div>
         <div class="day-body">
           <h3 class="day-title">{{ d.title }}</h3>
-          <NuxtLink v-for="it in rowsOfDay(d.date)" :key="it.id" :to="to(`/item/${it.id}`)" class="row">
+          <NuxtLink v-for="it in rowsOfDay(d.date)" :id="`it-${it.id}`" :key="it.id" :to="to(`/item/${it.id}`)" class="row">
             <span class="time">{{ isStay(it) ? '' : it.time }}</span>
             <span class="what">
               <CategoryChip :name="it.category" />
@@ -160,6 +161,7 @@ const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
 .day-body { padding: 12px 12px 12px 0; }
 .day-title { margin: 6px 12px 8px; font-size: 17px; }
 .row {
+  scroll-margin-top: 80px;
   display: grid;
   grid-template-columns: 120px 1fr 20px;
   align-items: center;
