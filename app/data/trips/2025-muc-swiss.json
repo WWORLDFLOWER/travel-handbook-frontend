@@ -1405,7 +1405,7 @@
       "id": "t-esim",
       "date": null,
       "time": "",
-      "title": "eSIM 網卡（15 天 26G）",
+      "title": "eSIM 網卡（Vodafone 15 天 26GB）",
       "category": "票卷",
       "costs": [
         {
@@ -1413,7 +1413,13 @@
           "twd": 3085
         }
       ],
-      "desc": "在蝦皮買的。"
+      "desc": "在蝦皮買的 Vodafone eSIM：15 天總量 26GB，附門號，送歐盟 100 分鐘通話。",
+      "links": [
+        {
+          "label": "蝦皮購買頁面",
+          "url": "https://tw.shp.ee/zXT6d22y"
+        }
+      ]
     }
   ],
   "skipped": [
