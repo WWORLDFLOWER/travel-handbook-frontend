@@ -1245,7 +1245,7 @@
       "id": "d8-stay",
       "date": "2025-10-10",
       "time": "20:00",
-      "title": "Hotel Zum Lamm（新天鵝堡附近）",
+      "title": "Hotel Zum Lamm（加爾米施，新天鵝堡附近）",
       "category": "住宿",
       "drive": "1h10m / 64.7km",
       "desc": "德國鄉村民宿，樓下有自己的餐廳。Check-in 17:00 / Check-out 10/11 07:00",
@@ -1259,6 +1259,12 @@
         {
           "label": "城市稅（現金）",
           "eur": 15
+        }
+      ],
+      "maps": [
+        {
+          "label": "Hotel Zum Lamm",
+          "url": "https://maps.app.goo.gl/VrvBSCRHJ5spoKv97"
         }
       ]
     },
@@ -2102,8 +2108,8 @@
       {
         "id": "lamm",
         "name": "Hotel Zum Lamm",
-        "lat": 47.49237,
-        "lng": 11.09628,
+        "lat": 47.4924,
+        "lng": 11.08509,
         "item": "d8-stay",
         "day": 8
       },
