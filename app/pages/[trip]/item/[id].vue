@@ -128,9 +128,6 @@ useHead({ title: () => `${item.value?.title} | ${trip.title}` })
               <div><span>全團合計（{{ trip.people }} 人）</span><b>{{ totalApprox ? '≈ ' : '' }}NT${{ money(total) }}</b></div>
               <div><span>人均</span><b>{{ totalApprox ? '≈ ' : '' }}NT${{ money(Math.round(total / trip.people)) }}</b></div>
             </div>
-            <p class="muted note">
-              金額來自記帳表的實際花費。刷卡的用實際台幣；付現的用匯率換算（€1 ≈ {{ trip.eurRate }}、CHF 1 ≈ {{ trip.chfRate }}），標示「≈」。
-            </p>
           </template>
           <p v-else class="muted">這一項沒有花費紀錄。</p>
         </div>
