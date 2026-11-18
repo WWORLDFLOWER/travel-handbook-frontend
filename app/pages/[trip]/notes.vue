@@ -16,7 +16,7 @@ useHead({ title: `注意事項 | ${trip.title}` })
           <li v-for="(t, j) in (n.items as NoteItem[])" :key="j">
             <template v-if="typeof t === 'string'">{{ t }}</template>
             <template v-else>
-              <template v-for="(l, k) in t.links" :key="l.item"><template v-if="k">、</template><NuxtLink :to="to(`/item/${l.item}`)" class="item-link">{{ l.label }} ›</NuxtLink></template>
+              <template v-for="(l, k) in t.links" :key="l.item"><template v-if="k">、</template><NuxtLink :to="to(`/item/${l.item}`)" class="item-link">{{ l.label }}</NuxtLink></template>
             </template>
           </li>
         </ul>
