@@ -25,6 +25,8 @@ export interface Item {
   booking?: string
   costs?: Cost[]
   tips?: string[]
+  // 分類頁不列（行程總表照常顯示）
+  hideInCategory?: boolean
 }
 export type CategoryName = '景點' | '美食' | '交通' | '住宿' | '票卷'
 

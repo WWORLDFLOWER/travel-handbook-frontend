@@ -5,8 +5,8 @@ const { to, trip, items, days } = useTrip()
 const cat = computed(() => CATEGORIES.find(c => c.slug === route.params.slug))
 if (!cat.value) throw createError({ statusCode: 404, statusMessage: '找不到這個分類' })
 
-// 「退房 + 出發」這類只是移動的過場，分類頁不列（行程總表照常顯示）
-const listed = items.filter(i => !/退房|出發/.test(i.title))
+// 分類頁不列：「退房 + 出發」這類過場、資料裡標 hideInCategory 的（例如連住的第二晚）；行程總表照常顯示
+const listed = items.filter(i => !i.hideInCategory && !/退房|出發/.test(i.title))
 const list = computed(() => listed.filter(i => i.category === cat.value!.name))
 const dayNo = (date: string | null) => days.find(d => d.date === date)?.no
 

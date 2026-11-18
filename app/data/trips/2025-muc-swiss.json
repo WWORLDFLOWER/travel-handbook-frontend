@@ -135,7 +135,8 @@
           "url": "https://www.google.com/maps/search/?api=1&query=Munich+Airport",
           "added": true
         }
-      ]
+      ],
+      "hideInCategory": true
     },
     {
       "id": "d2-car",
@@ -255,7 +256,8 @@
           "label": "羅騰堡老城區",
           "url": "https://maps.app.goo.gl/mUgEyRWMSDkaWSwc9"
         }
-      ]
+      ],
+      "hideInCategory": true
     },
     {
       "id": "d3-depart",
@@ -840,7 +842,8 @@
       "title": "Villa Matten（因特拉肯，第 2 晚）",
       "category": "住宿",
       "desc": "同 Day 5 住宿，房費已算在前一晚。",
-      "booking": "https://www.booking.com/Share-v3bbeOP"
+      "booking": "https://www.booking.com/Share-v3bbeOP",
+      "hideInCategory": true
     },
     {
       "id": "d7-depart",
@@ -1290,7 +1293,8 @@
       "title": "拜爾公寓式酒店（慕尼黑，第 2 晚）",
       "category": "住宿",
       "desc": "同 Day 9 住宿，房費已算在前一晚。",
-      "booking": "https://www.booking.com/Share-2CJ0Ek"
+      "booking": "https://www.booking.com/Share-2CJ0Ek",
+      "hideInCategory": true
     },
     {
       "id": "d11-depart",
@@ -1305,7 +1309,8 @@
       "time": "09:00–10:00",
       "title": "到慕尼黑機場 + 加油還車",
       "category": "交通",
-      "drive": "30min / 34km"
+      "drive": "30min / 34km",
+      "hideInCategory": true
     },
     {
       "id": "d11-flight",
@@ -1317,14 +1322,16 @@
         "10/13 MUC 13:55 → HKG 10/14 06:50（10h55min）CX300",
         "香港停留 1h45min",
         "10/14 HKG 08:35 → TPE 10:35（2h）CX530"
-      ]
+      ],
+      "hideInCategory": true
     },
     {
       "id": "d12-arrive",
       "date": "2025-10-14",
       "time": "10:35",
       "title": "抵達桃園機場，賦歸！",
-      "category": "交通"
+      "category": "交通",
+      "hideInCategory": true
     },
     {
       "id": "t-halffare",
