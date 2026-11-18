@@ -53,7 +53,7 @@ const countryRoute = ['TW', 'DE', 'FR', 'CH', 'DE', 'TW']
       </div>
 
       <h2 class="section-title">🗓️ 行程總表</h2>
-      <p class="muted hint">依照實際走的行程排列，點任何一列看細節（地圖、訂房、金額）。</p>
+      <p class="muted hint">依照實際走的行程排列，點任何一列看細節（地圖、訂房、金額）。時程安排、路程時間和公里數僅供參考。</p>
 
       <section v-for="d in days" :key="d.date" class="day" :style="{ '--c': COUNTRIES[d.country]!.color }">
         <div class="day-side">
