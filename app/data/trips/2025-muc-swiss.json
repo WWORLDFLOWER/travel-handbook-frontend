@@ -176,7 +176,7 @@
         },
         {
           "label": "Parkplatz Theresienwiese",
-          "url": "https://www.google.com/maps/place/Parkplatz+Theresienwiese/data=!4m2!3m1!19sChIJ65waQlXfnUcRm1KgISFx2gY"
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkplatz+Theresienwiese"
         }
       ],
       "links": [
@@ -211,7 +211,7 @@
         },
         {
           "label": "羅騰堡城牆",
-          "url": "https://www.google.com/maps/place/%E7%BE%85%E9%A8%B0%E5%A0%A1%E5%9F%8E%E7%89%86/data=!4m2!3m1!19sChIJGexcNaSPmEcRsUpJ1mBLsS0"
+          "url": "https://www.google.com/maps/search/?api=1&query=Stadtmauer+Rothenburg+ob+der+Tauber"
         }
       ],
       "links": [
@@ -563,7 +563,7 @@
         },
         {
           "label": "Zermatt Matterhorn Viewpoint",
-          "url": "https://www.google.com/maps/place/Zermatt+Matterhorn+Viewpoint/data=!4m2!3m1!19sChIJy7iTXPA3j0cRlYtf2dg14OA"
+          "url": "https://www.google.com/maps/search/?api=1&query=Zermatt+Matterhorn+Viewpoint"
         }
       ],
       "tips": [
@@ -765,11 +765,11 @@
       "maps": [
         {
           "label": "Firstbahn 纜車站",
-          "url": "https://www.google.com/maps/place/Firstbahn+AG/data=!4m2!3m1!19sChIJFXHzJfqbj0cRuejFQmFtnHM"
+          "url": "https://www.google.com/maps/search/?api=1&query=Firstbahn+Grindelwald"
         },
         {
           "label": "Firstbahn 停車場",
-          "url": "https://www.google.com/maps/place/Parkplatz+Grindelwald+Firstbahn/data=!4m2!3m1!19sChIJGZ6DSPmbj0cRgPRhTW3sPiA"
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkplatz+Grindelwald+Firstbahn"
         }
       ],
       "links": [
@@ -925,7 +925,7 @@
       "maps": [
         {
           "label": "卡貝爾橋",
-          "url": "https://www.google.com/maps/place/%E5%8D%A1%E8%B2%9D%E7%88%BE%E6%A9%8B/data=!4m2!3m1!19sChIJ5cLMMJ_7j0cRNw7SwdMQsCA"
+          "url": "https://www.google.com/maps/search/?api=1&query=Kapellbr%C3%BCcke+Luzern"
         }
       ],
       "links": [
@@ -1040,7 +1040,7 @@
       "maps": [
         {
           "label": "停車場 Parkplatz P3",
-          "url": "https://www.google.com/maps/place/Parkplatz+P3/data=!4m2!3m1!19sChIJuwJlKhP3nEcRqU85MgCfuUU"
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkplatz+P3+Hohenschwangau"
         },
         {
           "label": "瑪麗安橋 Marienbrücke",
@@ -1133,7 +1133,7 @@
       "maps": [
         {
           "label": "國王湖停車場",
-          "url": "https://www.google.com/maps/place/K%C3%B6nigssee+Pkw-Parkplatz/data=!4m2!3m1!19sChIJ0WFx7hDsdkcRqABVObYLsQw"
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkplatz+K%C3%B6nigssee+Sch%C3%B6nau"
         },
         {
           "label": "國王湖遊客中心",
@@ -1141,7 +1141,7 @@
         },
         {
           "label": "導航中繼點 PIDING OUTLETS",
-          "url": "https://www.google.com/maps/place/PIDING+OUTLETS/data=!4m2!3m1!19sChIJcfwy-ZOOdkcRk4zlhtg7r2Q"
+          "url": "https://www.google.com/maps/search/?api=1&query=Piding+Outlet"
         },
         {
           "label": "國王湖鱒魚餐廳（Zum Schiffmeister）",
@@ -1182,7 +1182,7 @@
       "maps": [
         {
           "label": "Salt Mine Berchtesgaden",
-          "url": "https://www.google.com/maps/place/Salt+Mine+Berchtesgaden/data=!4m2!3m1!19sChIJ0WP8i6LsdkcRgCrR9D8Gzys"
+          "url": "https://www.google.com/maps/search/?api=1&query=Salzbergwerk+Berchtesgaden"
         }
       ],
       "links": [
@@ -1277,7 +1277,7 @@
       "maps": [
         {
           "label": "皇家啤酒屋",
-          "url": "https://www.google.com/maps/place/%E7%9A%87%E5%AE%B6%E5%95%A4%E9%85%92%E5%B1%8B/data=!4m2!3m1!19sChIJxfxSz4t1nkcRLxq9ze1wwak"
+          "url": "https://www.google.com/maps/search/?api=1&query=Hofbr%C3%A4uhaus+M%C3%BCnchen"
         }
       ],
       "links": [
@@ -1429,7 +1429,7 @@
       "maps": [
         {
           "label": "瓦爾哈拉神殿",
-          "url": "https://www.google.com/maps/place/%E7%93%A6%E7%88%BE%E5%93%88%E6%8B%89%E7%A5%9E%E6%AE%BF/data=!4m2!3m1!19sChIJOdROHpjCn0cRtIsT4FO09zA"
+          "url": "https://www.google.com/maps/search/?api=1&query=Walhalla+Donaustauf"
         }
       ]
     },
@@ -1439,7 +1439,7 @@
       "maps": [
         {
           "label": "紐倫堡城堡",
-          "url": "https://www.google.com/maps/place/%E7%B4%90%E5%80%AB%E5%A0%A1%E5%9F%8E%E5%A0%A1/data=!4m2!3m1!19sChIJB5JKSLBXn0cRm5zy7D3jUgo"
+          "url": "https://www.google.com/maps/search/?api=1&query=Kaiserburg+N%C3%BCrnberg"
         }
       ]
     },
@@ -1449,7 +1449,7 @@
       "maps": [
         {
           "label": "海德堡城堡",
-          "url": "https://www.google.com/maps/place/%E6%B5%B7%E5%BE%B7%E5%A0%A1%E5%9F%8E%E5%A0%A1/data=!4m2!3m1!19sChIJk9tDygDBl0cR6n7pSTYuZ20"
+          "url": "https://www.google.com/maps/search/?api=1&query=Schloss+Heidelberg"
         }
       ]
     },
@@ -1506,7 +1506,7 @@
       "maps": [
         {
           "label": "Harderbahn",
-          "url": "https://www.google.com/maps/place/Harderbahn/data=!4m2!3m1!19sChIJ_U8GH6Ckj0cRcsSH9pirb4c"
+          "url": "https://www.google.com/maps/search/?api=1&query=Harderbahn+Interlaken"
         }
       ]
     },
@@ -1516,7 +1516,7 @@
       "maps": [
         {
           "label": "皮拉圖斯鐵路",
-          "url": "https://www.google.com/maps/place/%E7%9A%AE%E6%8B%89%E5%9C%96%E6%96%AF%E9%90%B5%E8%B7%AF/data=!4m2!3m1!19sChIJs3DXSP7wj0cRRATSlO4IKac"
+          "url": "https://www.google.com/maps/search/?api=1&query=Pilatusbahn+Alpnachstad"
         }
       ]
     },
@@ -1527,11 +1527,11 @@
       "maps": [
         {
           "label": "Zum Königstuhl",
-          "url": "https://www.google.com/maps/place/Zum+K%C3%B6nigstuhl+-+Schweizer+Restaurant+in+Z%C3%BCrich+Niederdorf/data=!4m2!3m1!19sChIJrYEEnTWhmkcRi2tZ62J1Imw"
+          "url": "https://www.google.com/maps/search/?api=1&query=Zum+K%C3%B6nigstuhl+Z%C3%BCrich"
         },
         {
           "label": "蘇黎世聯邦理工學院",
-          "url": "https://www.google.com/maps/place/%E8%98%87%E9%BB%8E%E4%B8%96%E8%81%AF%E9%82%A6%E7%90%86%E5%B7%A5%E5%AD%B8%E9%99%A2/data=!4m2!3m1!19sChIJ94xuUaagmkcRB3Y3tij0YUs"
+          "url": "https://www.google.com/maps/search/?api=1&query=ETH+Z%C3%BCrich"
         }
       ]
     },
@@ -1541,7 +1541,7 @@
       "maps": [
         {
           "label": "萊茵瀑布石頭觀景台",
-          "url": "https://www.google.com/maps/place/%E8%90%8A%E8%8C%B5%E7%80%91%E5%B8%83%E7%9F%B3%E9%A0%AD%E8%A7%80%E6%99%AF%E5%8F%B0/data=!4m2!3m1!19sChIJg2gTSEt_kEcRUzEiq85TVJM"
+          "url": "https://www.google.com/maps/search/?api=1&query=Rheinfallfelsen"
         }
       ]
     },
@@ -1565,7 +1565,7 @@
       "maps": [
         {
           "label": "鷹巢",
-          "url": "https://www.google.com/maps/place/%E9%B7%B9%E5%B7%A2/data=!4m2!3m1!19sChIJhZGDoGnrdkcRq7AFut_XDu4"
+          "url": "https://www.google.com/maps/search/?api=1&query=Kehlsteinhaus"
         }
       ]
     },
@@ -1576,7 +1576,7 @@
       "maps": [
         {
           "label": "Ingolstadt Village",
-          "url": "https://www.google.com/maps/place/Ingolstadt+Village/data=!4m2!3m1!19sChIJVydjc-X_nkcRQqGLQ11-FlA"
+          "url": "https://www.google.com/maps/search/?api=1&query=Ingolstadt+Village"
         }
       ]
     }
