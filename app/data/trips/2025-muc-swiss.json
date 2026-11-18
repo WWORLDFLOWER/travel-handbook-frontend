@@ -634,6 +634,16 @@
           "url": "https://www.zermatt.ch/en",
           "added": true
         }
+      ],
+      "maps": [
+        {
+          "label": "策馬特的勞力士店（可拿免費湯勺）",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rolex+Zermatt",
+          "added": true
+        }
+      ],
+      "tips": [
+        "可以去勞力士店拿免費的紀念湯勺"
       ]
     },
     {
