@@ -26,6 +26,7 @@ html, body {
 /* 網址 ?ff_type= 切換的字型（app/assets/fonts.ts） */
 html[data-ff="1"], html[data-ff="1"] body { font-family: "Zen Maru Gothic", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
 html[data-ff="2"], html[data-ff="2"] body { font-family: "Iansui", "PingFang TC", "Microsoft JhengHei", sans-serif; }
+html[data-ff="3"], html[data-ff="3"] body { font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
 
 a { color: inherit; }
 
