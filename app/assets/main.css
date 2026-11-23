@@ -18,7 +18,7 @@ html, body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  font-family: "Fraunces", "Noto Serif TC", "PMingLiU", serif;
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
 }

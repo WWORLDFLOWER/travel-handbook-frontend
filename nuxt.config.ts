@@ -17,7 +17,12 @@ export default defineNuxtConfig({
         // 私人旅遊紀錄，不讓搜尋引擎收錄
         { name: 'robots', content: 'noindex, nofollow' },
       ],
-      link: [{ rel: 'icon', href: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏔️</text></svg>' }],
+      link: [
+        // 字型：Google Fonts（免費，SIL OFL 授權）。英文和數字用 Fraunces，中文用思源宋體
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Noto+Serif+TC:wght@400;600;700;900&display=swap' },
+        { rel: 'icon', href: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏔️</text></svg>' }],
     },
   },
 
