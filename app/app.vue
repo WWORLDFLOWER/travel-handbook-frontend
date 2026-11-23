@@ -20,7 +20,7 @@ const active = (n: { to: string; prefix?: string }) =>
   <div>
     <header class="topbar">
       <div class="wrap topbar-in">
-        <NuxtLink :to="trip ? `/${slug}` : '/'" class="brand"><span>🏔️</span><span class="name"> {{ trip?.title ?? '旅遊手冊' }}</span></NuxtLink>
+        <NuxtLink :to="trip ? `/${slug}` : '/'" class="brand" :class="{ 'in-trip': trip }"><span>🏔️</span><span class="name"> {{ trip?.title ?? '旅遊手冊' }}</span></NuxtLink>
         <nav v-if="trip">
           <NuxtLink v-for="n in nav" :key="n.to" :to="n.to" :class="{ on: active(n) }">
             <span>{{ n.icon }}</span><span class="t">{{ n.label }}</span>
@@ -56,8 +56,10 @@ main { padding-bottom: 56px; }
 
 @media (max-width: 640px) {
   .brand .name { display: none; }
+  /* 手機在旅行裡不顯示左邊的山（選單五個按鈕平均分） */
+  .brand.in-trip { display: none; }
   .topbar-in { height: auto; padding-top: 8px; padding-bottom: 8px; }
-  nav { flex: 1; justify-content: space-between; }
-  nav a { flex-direction: column; gap: 0; padding: 4px 8px; font-size: 12px; border-radius: 12px; }
+  nav { flex: 1; gap: 4px; }
+  nav a { flex: 1 1 0; min-width: 0; flex-direction: column; justify-content: center; gap: 0; padding: 4px 2px; font-size: 12px; border-radius: 12px; white-space: nowrap; }
 }
 </style>
