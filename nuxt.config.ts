@@ -1,5 +1,7 @@
 // 旅遊手冊：純靜態網站（npm run generate 產生 .output/public），沒有後端
 // 資料都在 app/data/trip.json，改資料後重新 build 即可
+import { FONT_SCRIPT } from './app/assets/fonts'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
@@ -18,11 +20,12 @@ export default defineNuxtConfig({
         { name: 'robots', content: 'noindex, nofollow' },
       ],
       link: [
-        // 字型：Google Fonts（免費，SIL OFL 授權）。Zen Maru Gothic（日文圓體），它沒有的中文字（查、鄉、值…）用思源黑體 Noto Sans TC 補
+        // 字型可用網址 ?ff_type= 切換（app/assets/fonts.ts）；Google Fonts 只在選了 1 / 2 時才載入
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700;900&display=swap' },
         { rel: 'icon', href: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏔️</text></svg>' }],
+      // 畫面出來前就套好字型，避免先閃一下原本的字
+      script: [{ innerHTML: FONT_SCRIPT, tagPosition: 'head' }],
     },
   },
 
