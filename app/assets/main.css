@@ -18,7 +18,7 @@ html, body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Iansui", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-family: "Zen Maru Gothic", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
 }
